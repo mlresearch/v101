@@ -1,0 +1,2580 @@
+@Proceedings{acml19,
+  booktitle =	 {Proceedings of The Eleventh Asian Conference on
+                  Machine Learning},
+  name =	 {Asian Conference on Machine Learning},
+  shortname =	 {ACML},
+  year =	 {2019},
+  editor =	 {Lee, Wee Sun and Suzuki, Taiji},
+  volume =	 {101},
+  start =	 {2019-11-17},
+  end =		 {2019-11-19},
+  published =	 {2019-10-15},
+  address =	 {Nagoya, Japan},
+  sections = {Preface|Accepted Papers},
+  url =		 {http://www.acml-conf.org/2019/}
+}
+
+@InProceedings{lee19,
+  title =	 {Asian Conference on Machine Learning: Preface},
+  author =	 {Wee Sun Lee and Taiji Suzuki},
+  pages = {i-xvi},
+  section = {Preface},
+  abstract =	 {Preface to ACML 2019.}
+}
+
+@InProceedings{nishio19,
+  title =	 {Random Projection in Neural Episodic Control},
+  author =	 {Nishio, Daichi and Yamane, Satoshi},
+  pages =	 {1-15},
+  crossref =	 {acml19},
+  abstract =	 {End-to-end deep reinforcement learning has enabled
+                  agents to learn with little preprocessing by
+                  humans. However, it is still difficult to learn
+                  stably and efficiently because the learning method
+                  usually uses a nonlinear function
+                  approximation. Neural Episodic Control (NEC), which
+                  has been proposed in order to improve sample
+                  efficiency, is able to learn stably by estimating
+                  action values using a non-parametric method. In this
+                  paper, we propose an architecture that incorporates
+                  random projection into NEC to train with more
+                  stability. In addition, we verify the effectiveness
+                  of our architecture by Atari's five games. The main
+                  idea is to reduce the number of parameters that have
+                  to learn by replacing neural networks with random
+                  projection in order to reduce dimensions while
+                  keeping the learning end-to-end.}
+}
+
+@InProceedings{ji19,
+  title =	 {Differentially Private Community Detection in
+                  Attributed Social Networks},
+  author =	 {Ji, Tianxi and Luo, Changqing and Guo, Yifan and Ji,
+                  Jinlong and Liao, Weixian and Li, Pan},
+  pages =	 {16-31},
+  crossref =	 {acml19},
+  abstract =	 {Community detection is an effective approach to
+                  unveil social dynamics among individuals in social
+                  networks. In the literature, quite a few algorithms
+                  have been proposed to conduct community detection by
+                  exploiting the topology of social networks and the
+                  attributes of social actors. In practice, community
+                  detection is usually conducted by third parties like
+                  advertisement companies, hospitals, with access to
+                  social networks for different purposes, which can
+                  easily lead to privacy breaches. In this paper, we
+                  investigate community detection in social networks
+                  aiming to protect the privacy of both the network
+                  topologies and the users' attributes. In particular,
+                  we propose a new scheme called differentially
+                  private community detection (DPCD). DPCD detects
+                  communities in social networks via a probabilistic
+                  generative model, which can be decomposed into
+                  subproblems solved by individual users. The private
+                  social relationships and attributes of each user are
+                  protected by objective perturbation with
+                  differential privacy guarantees. Through both
+                  theoretical analysis and experimental validation
+                  using synthetic and real world social networks, we
+                  demonstrate that the proposed DPCD scheme detects
+                  social communities under modest privacy budget.}
+}
+
+@InProceedings{yang19a,
+  title =	 {Towards Governing Agent's Efficacy:
+                  Action-Conditional $\beta$-VAE for Deep Transparent
+                  Reinforcement Learning},
+  author =	 {Yang, John and Lee, Gyuejeong and Chang, Simyung and
+                  Kwak, Nojun},
+  pages =	 {32-47},
+  crossref =	 {acml19},
+  abstract =	 {We tackle the blackbox issue of deep neural networks
+                  in the settings of reinforcement learning (RL) where
+                  neural agents learn towards maximizing reward gains
+                  in an uncontrollable way. Such learning approach is
+                  risky when the interacting environment includes an
+                  expanse of state space because it is then almost
+                  impossible to foresee all unwanted outcomes and
+                  penalize them with negative rewards beforehand. We
+                  propose Action-conditional $\beta$-VAE
+                  (AC-$\beta$-VAE) that allows succinct mappings of
+                  action-dependent factors in desirable dimensions of
+                  latent representations while disentangling
+                  environmental factors. Our proposed method tackles
+                  the blackbox issue by encouraging an RL policy
+                  network to learn interpretable latent features by
+                  distinguits influenshing ices from uncontrollable
+                  environmental factors, which closely resembles the
+                  way humans understand their scenes. Our experimental
+                  results show that the learned latent factors not
+                  only are interpretable, but also enable modeling the
+                  distribution of entire visited state-action
+                  space. We have experimented that this characteristic
+                  of the proposed structure can lead to ex post facto
+                  governance for desired behaviors of RL agents.}
+}
+
+@InProceedings{tang19,
+  title =	 {An Articulated Structure-aware Network for 3D Human
+                  Pose Estimation},
+  author =	 {Tang, Zhenhua and Zhang, Xiaoyan and Hou, Junhui},
+  pages =	 {48-63},
+  crossref =	 {acml19},
+  abstract =	 {In this paper, we propose a new end-to-end
+                  articulated structure-aware network to regress 3D
+                  joint coordinates from the given 2D joint
+                  detections. The proposed method is capable of
+                  dealing with hard joints well that usually fail
+                  existing methods. Specifically, our framework
+                  cascades a refinement network with a basic network
+                  for two types of joints, and employs a attention
+                  module to simulate a camera projection model. In
+                  addition, we propose to use a random enhancement
+                  module to intensify the constraints between
+                  joints. Experimental results on the Human3.6M and
+                  HumanEva databases demonstrate the effectiveness and
+                  flexibility of the proposed network, and errors of
+                  hard joints and bone lengths are significantly
+                  reduced, compared with state-of-the-art approaches.}
+}
+
+@InProceedings{wang19a,
+  title =	 {A Continuous Actor-Critic Reinforcement Learning
+                  Approach to Flocking with Fixed-Wing UAVs},
+  author =	 {Wang, Chang and Yan, Chao and Xiang, Xiaojia and
+                  Zhou, Han},
+  pages =	 {64-79},
+  crossref =	 {acml19},
+  abstract =	 {Controlling a squad of fixed-wing UAVs is
+                  challenging due to the kinematics complexity and the
+                  environmental dynamics. In this paper, we develop a
+                  novel actor-critic reinforcement learning approach
+                  to solve the leader-follower flocking problem in
+                  continuous state and action spaces. Specifically, we
+                  propose a CACER algorithm that uses multilayer
+                  perceptron to represent both the actor and the
+                  critic, which has a deeper structure and provides a
+                  better function approximator than the original
+                  continuous actor-critic learning automation (CACLA)
+                  algorithm. Besides, we propose a double prioritized
+                  experience replay (DPER) mechanism to further
+                  improve the training efficiency. Specifically, the
+                  state transition samples are saved into two
+                  different experience replay buffers for updating the
+                  actor and the critic separately, based on the
+                  calculation of sample priority using the temporal
+                  difference errors. We have not only compared CACER
+                  with CACLA and a benchmark deep reinforcement
+                  learning algorithm DDPG in numerical simulation, but
+                  also demonstrated the performance of CACER in
+                  semi-physical simulation by transferring the learned
+                  policy in the numerical simulation without parameter
+                  tuning.}
+}
+
+@InProceedings{wang19b,
+  title =	 {Multiple Empirical Kernel Learning with Discriminant
+                  Locality Preservation},
+  author =	 {Wang, Bolu and Li, Dongdong and Wang, Zhe},
+  pages =	 {80-93},
+  crossref =	 {acml19},
+  abstract =	 {Multiple Kernel Learning (MKL) algorithm effectively
+                  combines different kernels to improve the
+                  performance of classification. Most MKL algorithms
+                  implicitly map samples into feature space by the
+                  form of inner-product. In contrast, Multiple
+                  Empirical Kernel Learning (MEKL) can explicitly map
+                  the input spaces into feature spaces so that the
+                  mapped feature vectors are explicitly represented,
+                  which is easy to process and analyze the
+                  adaptability of kernels for input space. Meanwhile,
+                  in order to pay attention to the structure and
+                  discriminant information of samples in empirical
+                  feature space, inspired by discriminant locality
+                  preserving projections, we introduce the
+                  discriminant locality preservation regularization
+                  into MEKL framework to propose the Multiple
+                  Empirical Kernel Learning with Discriminant Locality
+                  Preservation (MEKL-DLP). Experiments conducted on
+                  real-world datasets validate the effectiveness of
+                  the proposed MEKL-DLP compared with the classical
+                  kernel-based algorithms and state-of-art MKL
+                  algorithms.}
+}
+
+@InProceedings{furusho19,
+  title =	 {ResNet and Batch-normalization Improve Data
+                  Separability},
+  author =	 {Furusho, Yasutaka and Ikeda, Kazushi},
+  pages =	 {94-108},
+  crossref =	 {acml19},
+  abstract =	 {The skip-connection and the batch-normalization (BN)
+                  in ResNet enable an extreme deep neural network to
+                  be trained with high performance. However, the
+                  reasons for its high performance are still
+                  unclear. To clear that, we study the effects of the
+                  skip-connection and the BN on the class-related
+                  signal propagation through hidden layers because a
+                  large ratio of the between-class distance to the
+                  within-class distance of feature vectors at the last
+                  hidden layer induces high performance. Our result
+                  shows that the between-class distance and the
+                  within-class distance change differently through
+                  layers: the deep multilayer perceptron with randomly
+                  initialized weights degrades the ratio of the
+                  between-class distance to the within-class distance
+                  and the skip-connection and the BN relax this
+                  degradation. Moreover, our analysis implies that the
+                  skip-connection and the BN encourage training to
+                  improve this distance ratio. These results imply
+                  that the skip-connection and the BN induce high
+                  performance.}
+}
+
+@InProceedings{hu19,
+  title =	 {Variational Conditional GAN for Fine-grained
+                  Controllable Image Generation},
+  author =	 {Hu, Mingqi and Zhou, Deyu and He, Yulan},
+  pages =	 {109-124},
+  crossref =	 {acml19},
+  abstract =	 {In this paper, we propose a novel variational
+                  generator framework for conditional GANs to catch
+                  semantic details for improving the generation
+                  quality and diversity. Traditional generators in
+                  conditional GANs simply concatenate the conditional
+                  vector with the noise as the input representation,
+                  which is directly employed for upsampling
+                  operations. However, the hidden condition
+                  information is not fully exploited, especially when
+                  the input is a class label. Therefore, we introduce
+                  a variational inference into the generator to infer
+                  the posterior of latent variable only from the
+                  conditional input, which helps achieve a variable
+                  augmented representation for image
+                  generation. Qualitative and quantitative
+                  experimental results show that the proposed method
+                  outperforms the state-of-the-art approaches and
+                  achieves the realistic controllable images.}
+}
+
+@InProceedings{yang19b,
+  title =	 {Deep Learning with a Rethinking Structure for
+                  Multi-label Classification},
+  author =	 {Yang, Yao-Yuan and Lin, Yi-An and Chu, Hong-Min and
+                  Lin, Hsuan-Tien},
+  pages =	 {125-140},
+  crossref =	 {acml19},
+  abstract =	 {Multi-label classification (MLC) is an important
+                  class of machine learning problems that come with a
+                  wide spectrum of applications, each demanding a
+                  possibly different evaluation criterion. When
+                  solving the MLC problems, we generally expect the
+                  learning algorithm to take the hidden correlation of
+                  the labels into account to improve the prediction
+                  performance. Extracting the hidden correlation is
+                  generally a challenging task. In this work, we
+                  propose a novel deep learning framework to better
+                  extract the hidden correlation with the help of the
+                  memory structure within recurrent neural
+                  networks. The memory stores the temporary guesses on
+                  the labels and effectively allows the framework to
+                  rethink about the goodness and correlation of the
+                  guesses before making the final
+                  prediction. Furthermore, the rethinking process
+                  makes it easy to adapt to different evaluation
+                  criteria to match real-world application needs. In
+                  particular, the framework can be trained in an
+                  end-to-end style with respect to any given MLC
+                  evaluation criteria. The end-to-end design can be
+                  seamlessly combined with other deep learning
+                  techniques to conquer challenging MLC problems like
+                  image tagging. Experimental results across many
+                  real-world data sets justify that the rethinking
+                  framework indeed improves MLC performance across
+                  different evaluation criteria and leads to superior
+                  performance over state-of-the-art MLC algorithms.}
+}
+
+@InProceedings{konagayoshi19,
+  title =	 {Minimax Online Prediction of Varying Bernoulli
+                  Process under Variational Approximation},
+  author =	 {Konagayoshi, Kenta and Watanabe, Kazuho},
+  pages =	 {141-156},
+  crossref =	 {acml19},
+  abstract =	 {Multi-label classification (MLC) is an important
+                  class of machine learning problems that come with a
+                  wide spectrum of applications, each demanding a
+                  possibly different evaluation criterion. When
+                  solving the MLC problems, we generally expect the
+                  learning algorithm to take the hidden correlation of
+                  the labels into account to improve the prediction
+                  performance. Extracting the hidden correlation is
+                  generally a challenging task. In this work, we
+                  propose a novel deep learning framework to better
+                  extract the hidden correlation with the help of the
+                  memory structure within recurrent neural
+                  networks. The memory stores the temporary guesses on
+                  the labels and effectively allows the framework to
+                  rethink about the goodness and correlation of the
+                  guesses before making the final
+                  prediction. Furthermore, the rethinking process
+                  makes it easy to adapt to different evaluation
+                  criteria to match real-world application needs. In
+                  particular, the framework can be trained in an
+                  end-to-end style with respect to any given MLC
+                  evaluation criteria. The end-to-end design can be
+                  seamlessly combined with other deep learning
+                  techniques to conquer challenging MLC problems like
+                  image tagging. Experimental results across many
+                  real-world data sets justify that the rethinking
+                  framework indeed improves MLC performance across
+                  different evaluation criteria and leads to superior
+                  performance over state-of-the-art MLC algorithms.}
+}
+
+@InProceedings{wang19c,
+  title =	 {Multivariate Time Series Prediction Based on
+                  Optimized Temporal Convolutional Networks with
+                  Stacked Auto-encoders},
+  author =	 {Wang, Yunxiao and Liu, Zheng and Hu, Di and Zhang,
+                  Mian},
+  pages =	 {157-172},
+  crossref =	 {acml19},
+  abstract =	 {Multivariate time series prediction has recently
+                  attracted extensive research attention due to its
+                  wide applications in the area of financial
+                  investment, energy consumption, environmental
+                  pollution and so on. Because of the temporal
+                  complexity and nonlinearity existing in multivariate
+                  time series, few existing models could provide
+                  satisfactory prediction results. In this paper, we
+                  proposed a novel prediction approach based on
+                  optimized temporal convolutional networks with
+                  stacked auto-encoders, which can achieve better
+                  prediction performance as demonstrated in the
+                  experiments. Stacked auto-encoders are employed to
+                  extract effective features from complex multivariate
+                  time series. A temporal convolutional network is
+                  then constructed serving as the prediction model,
+                  which has a flexible receptive field and enjoys
+                  faster training speed with parallel computing
+                  ability than recurrent neural networks. The optimal
+                  hyperparameters in these models are discovered by
+                  Bayesian optimization. We performed extensive
+                  experiments by comparing the proposed algorithms and
+                  other popular algorithms on three different
+                  datasets, where the proposed approach obtain the
+                  best prediction results in various prediction
+                  horizons. In addition, we carefully analyze the
+                  search process of Bayesian optimization and provide
+                  further insights into hyperparametric tuning
+                  processes combining the exploration strategy with
+                  the exploitation strategy.}
+}
+
+@InProceedings{mollaysa19,
+  title =	 {Learning to Augment with Feature Side-information},
+  author =	 {Mollaysa, Amina and Kalousis, Alexandros and Bruno,
+                  Eric and Diephuis, Maurits},
+  pages =	 {173-187},
+  crossref =	 {acml19},
+  abstract =	 {Multivariate time series prediction has recently
+                  attracted extensive research attention due to its
+                  wide applications in the area of financial
+                  investment, energy consumption, environmental
+                  pollution and so on. Because of the temporal
+                  complexity and nonlinearity existing in multivariate
+                  time series, few existing models could provide
+                  satisfactory prediction results. In this paper, we
+                  proposed a novel prediction approach based on
+                  optimized temporal convolutional networks with
+                  stacked auto-encoders, which can achieve better
+                  prediction performance as demonstrated in the
+                  experiments. Stacked auto-encoders are employed to
+                  extract effective features from complex multivariate
+                  time series. A temporal convolutional network is
+                  then constructed serving as the prediction model,
+                  which has a flexible receptive field and enjoys
+                  faster training speed with parallel computing
+                  ability than recurrent neural networks. The optimal
+                  hyperparameters in these models are discovered by
+                  Bayesian optimization. We performed extensive
+                  experiments by comparing the proposed algorithms and
+                  other popular algorithms on three different
+                  datasets, where the proposed approach obtain the
+                  best prediction results in various prediction
+                  horizons. In addition, we carefully analyze the
+                  search process of Bayesian optimization and provide
+                  further insights into hyperparametric tuning
+                  processes combining the exploration strategy with
+                  the exploitation strategy.}
+}
+
+@InProceedings{gherbi19,
+  title =	 {An Encoding Adversarial Network for Anomaly
+                  Detection},
+  author =	 {Gherbi, Elies and Hanczar, Blaise and Janodet,
+                  Jean-Christophe and Klaudel, Witold},
+  pages =	 {188-203},
+  crossref =	 {acml19},
+  abstract =	 {Anomaly detection is a standard problem in Machine
+                  Learning with various applications such as
+                  health-care, predictive maintenance, and
+                  cyber-security. In such applications, the data is
+                  unbalanced: the rate of regular examples is much
+                  higher than the anomalous examples. The emergence of
+                  the Generative Adversarial Networks (GANs) has
+                  recently brought new algorithms for anomaly
+                  detection. Most of them use the generator as a proxy
+                  for the reconstruction loss. The idea is that the
+                  generator cannot reconstruct an anomaly. We develop
+                  an alternative approach for anomaly detection, based
+                  on an Encoding Adversarial Network (AnoEAN), which
+                  maps the data to a latent space (decision space),
+                  where the detection of anomalies is done directly by
+                  calculating a score. Our encoder is learned by
+                  adversarial learning, using two loss functions, the
+                  first constraining the encoder to project regular
+                  data into a Gaussian distribution and the second, to
+                  project anomalous data outside this distribution. We
+                  conduct a series of experiments on several standard
+                  bases and show that our approach outperforms the
+                  state of the art when using 10\% anomalies during
+                  the learning stage, and detects unseen anomalies.}
+}
+
+@InProceedings{asadi19,
+  title =	 {Model-Based Reinforcement Learning Exploiting
+                  State-Action Equivalence},
+  author =	 {Asadi, Mahsa and Talebi, Mohammad Sadegh and Bourel,
+                  Hippolyte and Maillard, Odalric-Ambrym},
+  pages =	 {204-219},
+  crossref =	 {acml19},
+  abstract =	 {Leveraging an equivalence property in the
+                  state-space of a Markov Decision Process (MDP) has
+                  been investigated in several studies. This paper
+                  studies equivalence structure in the reinforcement
+                  learning (RL) setup, where transition distributions
+                  are no longer assumed to be known. We present a
+                  notion of similarity between transition
+                  probabilities of various state-action pairs of an
+                  MDP, which naturally defines an equivalence
+                  structure in the state-action space. We present
+                  equivalence-aware confidence sets for the case where
+                  the learner knows the underlying structure in
+                  advance. These sets are provably smaller than their
+                  corresponding equivalence-oblivious counterparts. In
+                  the more challenging case of an unknown equivalence
+                  structure, we present an algorithm called
+                  ApproxEquivalence that seeks to find an
+                  (approximate) equivalence structure, and define
+                  confidence sets using the approximate
+                  equivalence. To illustrate the efficacy of the
+                  presented confidence sets, we present C-UCRL, as a
+                  natural modification of UCRL2 for RL in undiscounted
+                  MDPs. In the case of a known equivalence structure,
+                  we show that C-UCRL\ improves over UCRL2 in terms of
+                  \emph{regret} by a factor of $\sqrt{SA/C}$, in any
+                  communicating MDP with $S$ states, $A$ actions, and
+                  $C$ classes, which corresponds to a massive
+                  improvement when $C\ll SA$. To the best of our
+                  knowledge, this is the first work providing regret
+                  bounds for RL when an equivalence structure in the
+                  MDP is efficiently exploited. In the case of an
+                  unknown equivalence structure, we show through
+                  numerical experiments that C-UCRL\ combined with
+                  ApproxEquivalence outperforms UCRL2 in ergodic
+                  MDPs.}
+}
+
+@InProceedings{wang19d,
+  title =	 {A Model of Text-Enhanced Knowledge Graph
+                  Representation Learning with Collaborative
+                  Attention},
+  author =	 {Wang, Yashen and Zhang, Huanhuan and Xie, Haiyong},
+  pages =	 {220-235},
+  crossref =	 {acml19},
+  abstract =	 {This paper proposes a novel collaborative attention
+                  mechanism, to fully utilize the mutually reinforcing
+                  relationship among the knowledge graph
+                  representation learning procedure (i.e., structure
+                  representation) and textual relation representation
+                  learning procedure (i.e., text
+                  representation). Based on this collaborative
+                  attention mechanism, a text-enhanced knowledge graph
+                  (KG) representation model is proposed, which could
+                  utilize textual information to enhance the knowledge
+                  representations and make the multi-direction signals
+                  to be fully integrated to learn more accurate
+                  textual representations for further improving
+                  structure representation and vice
+                  versa. Experimental results demonstrate the
+                  efficiency of the proposed model on both link
+                  prediction task and triple classification task.}
+}
+
+@InProceedings{wang19e,
+  title =	 {SPCDet: Enhancing Object Detection with Combined
+                  Feature Fusing},
+  author =	 {Wang, Haixin and Wu, Lintao and Wu, Qiongzhi},
+  pages =	 {236-251},
+  crossref =	 {acml19},
+  abstract =	 {Feature pyramid and feature fusing are widely used
+                  in object detection. Using feature pyramid can
+                  confront the challenge of scale variation across
+                  different objects. Feature fusing imports context
+                  information to improve detection
+                  performance. Although detecting with feature pyramid
+                  and feature fusing has achieved some encouraging
+                  results, there are still some limitations owing to
+                  the features' level variance among different
+                  layers. In this paper, we exploit that
+                  serial-parallel combined feature fusing can enhance
+                  object detection. Instead of detecting on the
+                  feature pyramid of backbone directly, we fuse
+                  different layers from backbone as base
+                  features. Then the base features are fed into a
+                  U-shape module to build local-global feature
+                  pyramid. At last, we use the pyramid to do the
+                  multi-scale detection with our combined feature
+                  fusing method. We call this one-stage detector
+                  SPCDet. It keeps real time speed and outperforms
+                  other detectors in trade-off between accuracy and
+                  speed.}
+}
+
+@InProceedings{torossian19,
+  title =	 {$\mathcal{X}$-Armed Bandits: Optimizing Quantiles,
+                  CVaR and Other Risks},
+  author =	 {Torossian, L\'eonard and Garivier, Aur\'elien and
+                  Picheny, Victor},
+  pages =	 {252-267},
+  crossref =	 {acml19},
+  abstract =	 {We propose and analyze StoROO, an algorithm for risk
+                  optimization on stochastic black-box functions
+                  derived from StoOO. Motivated by risk-averse
+                  decision making fields like agriculture, medicine,
+                  biology or finance, we do not focus on the mean
+                  payoff but on generic functionals of the return
+                  distribution. We provide a generic regret analysis
+                  of StoROO and illustrate its applicability with two
+                  examples: the optimization of quantiles and
+                  CVaR. Inspired by the bandit literature and
+                  black-box mean optimizers, StoROO relies on the
+                  possibility to construct confidence intervals for
+                  the targeted functional based on random-size
+                  samples. We detail their construction in the case of
+                  quantiles, providing tight bounds based on
+                  Kullback-Leibler divergence. We finally present
+                  numerical experiments that show a dramatic impact of
+                  tight bounds for the optimization of quantiles and
+                  CVaR.}
+}
+
+@InProceedings{sahu19,
+  title =	 {Optimal PAC-Bayesian Posteriors for Stochastic
+                  Classifiers and their use for Choice of SVM
+                  Regularization Parameter},
+  author =	 {Sahu, Puja and Hemachandra, Nandyala},
+  pages =	 {268-283},
+  crossref =	 {acml19},
+  abstract =	 {PAC-Bayesian set up involves a stochastic classifier
+                  characterized by a posterior distribution on a
+                  classifier set, offers a high probability bound on
+                  its averaged true risk and is robust to the training
+                  sample used. For a given posterior, this bound
+                  captures the trade off between averaged empirical
+                  risk and KL-divergence based model complexity
+                  term. Our goal is to identify an optimal posterior
+                  with the least PAC-Bayesian bound. We consider a
+                  finite classifier set and 5 distance functions:
+                  KL-divergence, its Pinsker's and a sixth degree
+                  polynomial approximations; linear and squared
+                  distances. Linear distance based model results in a
+                  convex optimization problem and we obtain a closed
+                  form expression for its optimal posterior. For
+                  uniform prior, this posterior has full support with
+                  weights negative-exponentially proportional to
+                  number of misclassifications. Squared distance and
+                  Pinsker's approximation bounds are possibly
+                  quasi-convex and are observed to have single local
+                  minimum. We derive fixed point equations (FPEs)
+                  using partial KKT system with strict positivity
+                  constraints. This obviates the combinatorial search
+                  for subset support of the optimal posterior. For
+                  uniform prior, exponential search on a
+                  full-dimensional simplex can be limited to an
+                  ordered subset of classifiers with increasing
+                  empirical risk values. These FPEs converge rapidly
+                  to a stationary point, even for a large classifier
+                  set when a solver fails. We apply these approaches
+                  to SVMs generated using a finite set of SVM
+                  regularization parameter values on 9 UCI
+                  datasets. The resulting optimal posteriors (on the
+                  set of regularization parameters) yield stochastic
+                  SVM classifiers with tight bounds. KL-divergence
+                  based bound is the tightest, but is computationally
+                  expensive due to its non-convex nature and multiple
+                  calls to a root finding algorithm. Optimal
+                  posteriors for all 5 distance functions have lowest
+                  10\% test error values on most datasets, with that
+                  of linear distance being the easiest to obtain.}
+}
+
+@InProceedings{huang19a,
+  title =	 {Realistic Image Generation using Region-phrase
+                  Attention},
+  author =	 {Huang, Wanming and Xu, Richard Yi Da and Oppermann,
+                  Ian},
+  pages =	 {284-299},
+  crossref =	 {acml19},
+  abstract =	 {The Generative Adversarial Network (GAN) has
+                  achieved remarkable progress in generating synthetic
+                  images from text, especially since the use of the
+                  attention mechanism. The current state-of-the-art
+                  algorithm applies attentions between individual
+                  regular-grid regions of an image and words of a
+                  sentence. These approaches are sufficient to
+                  generate images that contain a single object in its
+                  foreground. However, natural languages often involve
+                  complex foreground objects and the background may
+                  also constitute a variable portion of the generated
+                  image. In this case, the regular-grid region based
+                  image attention weights may not necessarily
+                  concentrate on the intended foreground region(s),
+                  which in turn, results in an unnatural looking
+                  image. Additionally, individual words such as ``a'',
+                  ``blue'' and ``shirt'' do not necessarily provide a
+                  full visual context unless they are applied
+                  together. For this reason, in our paper, we proposed
+                  a novel method in which we introduced an additional
+                  set of natural attentions between object-grid
+                  regions and word phrases. The object-grid region is
+                  defined by a set of auxiliary bounding boxes. They
+                  serve as superior location indicators to where the
+                  alignment and attention should be drawn with the
+                  word phrases. We perform experiments on the
+                  Microsoft Common Objects in Context (MSCOCO) dataset
+                  and prove that our proposed approach is capable of
+                  generating more realistic images compared with the
+                  current state-of-the-art algorithms.}
+}
+
+@InProceedings{huang19b,
+  title =	 {Efficient Diversified Mini-Batch Selection using
+                  Variable High-layer Features},
+  author =	 {Huang, Wanming and Xu, Richard Yi Da and Oppermann,
+                  Ian},
+  pages =	 {300-315},
+  crossref =	 {acml19},
+  abstract =	 {Stochastic Gradient Descent (SGD) has been widely
+                  adopted in training Deep Neural networks of various
+                  structures. Instead of using a full dataset, a
+                  so-called {\itshape mini-batch} is selected during
+                  each gradient descent iteration. This aims to speed
+                  up the learning when a large number of training data
+                  is present. Without the knowledge of its true
+                  underlying distribution, one often samples the data
+                  indices uniformly. Recently, researchers applied a
+                  diversified mini-batch selection scheme through the
+                  use of Determinantal Point Process (DPP), in order
+                  to avoid having highly correlated samples in one
+                  batch ({{Zhang et al.}} ({2017})). Despite its
+                  success, the attempts were restrictive in the sense
+                  that they used fixed features to construct the
+                  Gram-matrix for DPP; using the raw or fixed
+                  higher-layer features limited the amount of
+                  potential improvement over the convergence rate. In
+                  this paper, we instead proposed to use variable
+                  higher-layer features which are updated at each
+                  iteration when the parameter changes. To avoid the
+                  high computation cost, several contributions have
+                  been made to speed up the computation of DPP
+                  sampling, including: (1) using hierarchical sampling
+                  to break down a single DPP sampling with large
+                  Gram-matrix into many DPP samplings of much smaller
+                  Gram-matrix and (2) using Markov k-DPP to encourage
+                  diversity across iterations. Empirical results show
+                  a much more diversified mini batch in each iteration
+                  in addition to a much improved convergence compared
+                  with the previous approach.}
+}
+
+@InProceedings{schueler19,
+  title =	 {Gradient-based Training of Slow Feature Analysis by
+                  Differentiable Approximate Whitening},
+  author =	 {Sch{\"u}ler, Merlin and Hlynsson, Hlynur Dav\'i\dh and
+                  Wiskott, Laurenz},
+  pages =	 {316-331},
+  crossref =	 {acml19},
+  abstract =	 {We propose Power Slow Feature Analysis, a
+                  gradient-based method to extract temporally slow
+                  features from a high-dimensional input stream that
+                  varies on a faster time-scale, as a variant of Slow
+                  Feature Analysis (SFA) that allows end-to-end
+                  training of arbitrary differentiable architectures
+                  and thereby significantly extends the class of
+                  models that can effectively be used for slow feature
+                  extraction. We provide experimental evidence that
+                  PowerSFA is able to extract meaningful and
+                  informative low-dimensional features in the case of
+                  (a) synthetic low-dimensional data, (b) ego-visual
+                  data, and also for (c) a general dataset for which
+                  symmetric non-temporal similarities between points
+                  can be defined. }
+}
+
+@InProceedings{staerman19,
+  title =	 {Functional Isolation Forest},
+  author =	 {Staerman, Guillaume and Mozharovskyi, Pavlo and
+                  Cl\'emen\c{c}on, Stephan and d'Alch\'e-Buc, Florence},
+  pages =	 {332-347},
+  crossref =	 {acml19},
+  abstract =	 {For the purpose of monitoring the behavior of
+                  complex infrastructures (\textit{e.g.} aircrafts,
+                  transport or energy networks), high-rate sensors are
+                  deployed to capture multivariate data, generally
+                  unlabeled, in quasi continuous-time to detect
+                  quickly the occurrence of anomalies that may
+                  jeopardize the smooth operation of the system of
+                  interest. The statistical analysis of such massive
+                  data of functional nature raises many challenging
+                  methodological questions. The primary goal of this
+                  paper is to extend the popular {\scshape Isolation
+                  Forest} (IF) approach to Anomaly Detection,
+                  originally dedicated to finite dimensional
+                  observations, to functional data. The major
+                  difficulty lies in the wide variety of topological
+                  structures that may equip a space of functions and
+                  the great variety of patterns that may characterize
+                  abnormal curves. We address the issue of (randomly)
+                  splitting the functional space in a flexible manner
+                  in order to isolate progressively any trajectory
+                  from the others, a key ingredient to the efficiency
+                  of the algorithm. Beyond a detailed description of
+                  the algorithm, computational complexity and
+                  stability issues are investigated at length. From
+                  the scoring function measuring the degree of
+                  abnormality of an observation provided by the
+                  proposed variant of the IF algorithm, a
+                  \textit{Functional Statistical Depth} function is
+                  defined and discussed, as well as a multivariate
+                  functional extension. Numerical experiments provide
+                  strong empirical evidence of the accuracy of the
+                  extension proposed.}
+}
+
+@InProceedings{bo19,
+  title =	 {Latent Multi-view Semi-Supervised Classification},
+  author =	 {Bo, Xiaofan and Kang, Zhao and Zhao, Zhitong and Su,
+                  Yuanzhang and Chen, Wenyu},
+  pages =	 {348-362},
+  crossref =	 {acml19},
+  abstract =	 {To explore underlying complementary information from
+                  multiple views, in this paper, we propose a novel
+                  Latent Multi-view Semi-Supervised Classification
+                  (LMSSC) method. Unlike most existing multi-view
+                  semi-supervised classification methods that learn
+                  the graph using original features, our method seeks
+                  an underlying latent representation and performs
+                  graph learning and label propagation based on the
+                  learned latent representation. With the
+                  complementarity of multiple views, the latent
+                  representation could depict the data more
+                  comprehensively than every single view individually,
+                  accordingly making the graph more accurate and
+                  robust as well. Finally, LMSSC integrates latent
+                  representation learning, graph construction, and
+                  label propagation into a unified framework, which
+                  makes each subtask optimized. Experimental results
+                  on real-world benchmark datasets validate the
+                  effectiveness of our proposed method.}
+}
+
+@InProceedings{zhang19a,
+  title =	 {Cascaded and Dual: Discrimination Oriented Network
+                  for Brain Tumor Classification},
+  author =	 {Zhang, Wenxuan and Zhang, Dong and Xiang, Xinguang},
+  pages =	 {363-378},
+  crossref =	 {acml19},
+  abstract =	 {Medical image classification is one of the
+                  fundamental research topics in the domain of
+                  computer-aided diagnosis. Although existing
+                  classification models of the natural image can
+                  produce promising results using deep convolutional
+                  neural networks in some cases, it is difficult to
+                  guarantee that these models can generate promising
+                  performance for medical images. To bridge such a
+                  gap, we propose a novel medical image classification
+                  method for brain tumors in this paper, termed as
+                  Discrimination Oriented Network (DONet). Inspired by
+                  the attention learning mechanism of the human brain,
+                  we first propose two categories of attention
+                  learning modules, i.e., the Cascaded Attention
+                  Learning (CAL) and the Dual Attention Learning
+                  (DAL), which can learn the discrimination
+                  information in both the spatial-wise and the
+                  channel-wise dimensions in a fine-grained manner. By
+                  the CAL and the DAL, the attention information of
+                  different dimensions is calculated in a series
+                  manner (for cascaded) and a parallel manner (for
+                  dual), respectively. To demonstrate the superiority
+                  of our proposed modules, we implement the CAL and
+                  the DAL on the Deep Residual Network (ResNet) for
+                  brain tumor classification. Compared with the
+                  ResNet, experimental results show that the DONet has
+                  a significant improvement in accuracy. Moreover,
+                  compared with state-of-the-art classification
+                  methods, the DONet can also achieve better
+                  performance.}
+}
+
+@InProceedings{bondu19,
+  title =	 {\textsc{fears}: a \textsc{fe}ature \textsc{a}nd
+                  \textsc{r}epresentation \textsc{s}election approach
+                  for time series classification},
+  author =	 {Bondu, Alexis and Gay, Dominique and Lemaire,
+                  Vincent and Boull\'e, Marc and Cervenka, Eole},
+  pages =	 {379-394},
+  crossref =	 {acml19},
+  abstract =	 {This paper presents a method which extracts
+                  informative features while selecting simultaneously
+                  adequate representations for Time Series
+                  Classification. This method simultaneously (i)
+                  selects alternative representations, such as
+                  derivatives, cumulative integrals, power spectrum …
+                  (ii) and extracts informative features (via
+                  automatic variable construction) from the selected
+                  set of representations. The suggested approach is
+                  decomposed in three steps: (i) the original time
+                  series are transformed into several representations
+                  which are stored as relational data; (ii) then, a
+                  {regularized} propositionalisation method is applied
+                  in order to generate informative aggregate features;
+                  (iii) finally, a selective Naive Bayes classifier is
+                  learned from the outcoming feature-value data
+                  table. The previous steps are repeated by a forward
+                  backward selection algorithm in order to select the
+                  most informative subset of representations. The
+                  suggested approach proves to be highly competitive
+                  when compared with state-of-the-art methods while
+                  extracting interpretable features. Furthermore, the
+                  suggested approach is almost parameter free and only
+                  requires few hardware resources.}
+}
+
+@InProceedings{lin19,
+  title =	 {Unified Policy Optimization for Robust Reinforcement
+                  Learning},
+  author =	 {Lin, Zichuan and Zhao, Li and Bian, Jiang and Qin,
+                  Tao and Yang, Guangwen},
+  pages =	 {395-410},
+  crossref =	 {acml19},
+  abstract =	 {Recent years have witnessed significant progress in
+                  solving challenging problems across various domains
+                  using deep reinforcement learning (RL). Despite the
+                  success, the weak robustness has risen as a big
+                  obstacle for applying existing RL algorithms into
+                  real problems. In this paper, we propose unified
+                  policy optimization (UPO), a sample-efficient shared
+                  policy framework that allows a policy to update
+                  itself by considering different gradients generated
+                  by different policy gradient (PG)
+                  methods. Specifically, we propose two algorithms
+                  called UPO-MAB and UPO-ES, to leverage these
+                  different gradients by adopting the idea of
+                  multi-arm bandit (MAB) and evolution strategies
+                  (ES), with the purpose of finding the gradient
+                  direction leading to more performance gain with less
+                  extra data cost. Extensive experiments show that our
+                  approach can lead to stronger robustness and better
+                  performance than baselines.}
+}
+
+@InProceedings{chen19,
+  title =	 {Multi-Label Learning with Regularization Enriched
+                  Label-Specific Features},
+  author =	 {Chen, Ze-Sen and Zhang, Min-Ling},
+  pages =	 {411-424},
+  crossref =	 {acml19},
+  abstract =	 {Multi-label learning learns from examples each
+                  associated with multiple class labels
+                  simultaneously, and the goal is to induce a
+                  predictive model which can assign a set of relevant
+                  labels for the unseen instance. Label-specific
+                  features serve as an effective strategy towards
+                  inducing multi-label predictive model, where the
+                  relevancy of each class label is determined by
+                  employing tailored features encoding inherent and
+                  distinct characteristics of the class label its
+                  own. In this paper, a regularization based approach
+                  named {\textsc{Reel}} is proposed for label-specific
+                  features generation, which works by enriching
+                  label-specific feature representation for each class
+                  label via synergizing informative label-specific
+                  features from other class labels with sparse
+                  regularization. Specifically, full-order label
+                  correlations are considered by {\textsc{Reel}} while
+                  the number of classifiers induced for multi-label
+                  prediction is linear to the number of class
+                  labels. Extensive experiments on fifteen benchmark
+                  multi-label data sets clearly show the favorable
+                  performance of {\textsc{Reel}} against other
+                  state-of-the-art multi-label learning approaches
+                  with label-specific features.}
+}
+
+@InProceedings{zhang19b,
+  title =	 {An Attentive Memory Network Integrated with Aspect
+                  Dependency for Document-Level Multi-Aspect Sentiment
+                  Classification},
+  author =	 {Zhang, Qingxuan and Shi, Chongyang},
+  pages =	 {425-440},
+  crossref =	 {acml19},
+  abstract =	 {Document-level multi-aspect sentiment classification
+                  is one of the foundational tasks in natural language
+                  processing (NLP) and neural network methods have
+                  achieved great success in reviews sentiment
+                  classification. Most of recent works ignore the
+                  relation between different aspects and do not take
+                  into account the contexting dependent importance of
+                  sentences and aspect keywords. In this paper, we
+                  propose an attentive memory network for
+                  document-level multi-aspect sentiment
+                  classification. Unlike recent proposed models which
+                  average word embeddings of aspect keywords to
+                  represent aspect and utilize hierarchical
+                  architectures to encode review documents, we adopt
+                  attention-based memory networks to construct aspect
+                  and sentence memories. The recurrent attention
+                  operation is employed to capture long-distance
+                  dependency across sentences and obtain aspect-aware
+                  document representations over aspect and sentence
+                  memories. Then, incorporating the neighboring
+                  aspects related information into the final aspect
+                  rating predictions by using multi-hop attention
+                  memory networks. Experimental results on two
+                  real-world datasets TripAdvisor and BeerAdvocate
+                  show that our model achieves state-of-the-art
+                  performance.}
+}
+
+@InProceedings{li19a,
+  title =	 {Multi-modal Representation Learning for Successive
+                  POI Recommendation},
+  author =	 {Li, Lishan and Liu, Ying and Wu, Jianping and He,
+                  Lin and Ren, Gang},
+  pages =	 {441-456},
+  crossref =	 {acml19},
+  abstract =	 {Successive POI recommendation is a fundamental
+                  problem for location-based social networks
+                  (LBSNs). POI recommendation takes a variety of POI
+                  context information (e.g. spatial location and
+                  textual comment) and user preference into
+                  consideration. Existing POI recommendation systems
+                  mainly focus on part of the POI context and user
+                  preference with a specific modeling, which loses
+                  valuable information from other aspects. In this
+                  paper, we propose to construct a multi-modal
+                  check-in graph, a heterogeneous graph that combines
+                  five check-in aspects in a unified way. We further
+                  propose a multi-modal representation learning model
+                  based on the graph to jointly learn POI and user
+                  representations. Finally, we employ an attentional
+                  recurrent neural network based on the
+                  representations for successive POI
+                  recommendation. Experiments on a public dataset
+                  studies the effects of modeling different aspects of
+                  check-in records and demonstrates the effectiveness
+                  of the method in improving POI recommendation
+                  performance.}
+}
+
+@InProceedings{wang19f,
+  title =	 {Forward and Backward Knowledge Transfer for
+                  Sentiment Classification},
+  author =	 {Wang, Hao and Liu, Bing and Wang, Shuai and Ma,
+                  Nianzu and Yang, Yan},
+  pages =	 {457-472},
+  crossref =	 {acml19},
+  abstract =	 {This paper studies the problem of learning a
+                  sequence of sentiment classification tasks. The
+                  learned knowledge from each task is retained and
+                  later used to help future or subsequent task
+                  learning. This learning paradigm is called
+                  \textit{lifelong learning}. However, existing
+                  lifelong learning methods either only transfer
+                  knowledge forward to help future learning and do not
+                  go back to improve the model of a previous task or
+                  require the training data of the previous task to
+                  retrain its model to exploit backward/reverse
+                  knowledge transfer. This paper studies reverse
+                  knowledge transfer of lifelong learning. It aims to
+                  improve the model of a previous task by leveraging
+                  future knowledge without retraining using its
+                  training data, which is challenging now. In this
+                  work, this is done by exploiting a key
+                  characteristic of the generative model of na\"ive
+                  Bayes. That is, it is possible to improve the
+                  na\"ive Bayesian classifier for a task by improving
+                  its model parameters directly using the retained
+                  knowledge from other tasks. Experimental results
+                  show that the proposed method markedly outperforms
+                  existing lifelong learning baselines.}
+}
+
+@InProceedings{ishii19,
+  title =	 {Zero-shot Domain Adaptation Based on Attribute
+                  Information},
+  author =	 {Ishii, Masato and Takenouchi, Takashi and Sugiyama,
+                  Masashi},
+  pages =	 {473-488},
+  crossref =	 {acml19},
+  abstract =	 {In this paper, we propose a novel domain adaptation
+                  method that can be applied without target data. We
+                  consider the situation where domain shift is caused
+                  by a prior change of a specific factor and assume
+                  that we know how the prior changes between source
+                  and target domains. We call this factor an
+                  attribute, and reformulate the domain adaptation
+                  problem to utilize the attribute prior instead of
+                  target data. In our method, the source data are
+                  reweighted with the sample-wise weight estimated by
+                  the attribute prior and the data themselves so that
+                  they are useful in the target domain. We
+                  theoretically reveal that our method provides more
+                  precise estimation of sample-wise transferability
+                  than a straightforward attribute-based reweighting
+                  approach. Experimental results with both toy
+                  datasets and benchmark datasets show that our method
+                  can perform well, though it does not use any target
+                  data.}
+}
+
+@InProceedings{paik19,
+  title =	 {Capsule Networks Need an Improved Routing Algorithm},
+  author =	 {Paik, Inyoung and Kwak, Taeyeong and Kim, Injung},
+  pages =	 {489-502},
+  crossref =	 {acml19},
+  abstract =	 {In capsule networks, the routing algorithm connects
+                  capsules in consecutive layers, enabling the
+                  upper-level capsules to learn higher-level concepts
+                  by combining the concepts of the lower-level
+                  capsules. Capsule networks are known to have a few
+                  advantages over conventional neural networks,
+                  including robustness to 3D viewpoint changes and
+                  generalization capability. However, some studies
+                  have reported negative experimental
+                  results. Nevertheless, the reason for this
+                  phenomenon has not been analyzed yet. We empirically
+                  analyzed the effect of five different routing
+                  algorithms. The experimental results show that the
+                  routing algorithms do not behave as expected and
+                  often produce results that are worse than simple
+                  baseline algorithms that assign the connection
+                  strengths uniformly or randomly. We also show that,
+                  in most cases, the routing algorithms do not change
+                  the classification result but polarize the link
+                  strengths, and the polarization can be extreme when
+                  they continue to repeat without stopping. In order
+                  to realize the true potential of the capsule
+                  network, it is essential to develop an improved
+                  routing algorithm.}
+}
+
+@InProceedings{sato19,
+  title =	 {Learning to Sample Hard Instances for Graph
+                  Algorithms},
+  author =	 {Sato, Ryoma and Yamada, Makoto and Kashima, Hisashi},
+  pages =	 {503-518},
+  crossref =	 {acml19},
+  abstract =	 {\textit{Hard instances}, which require a long time
+                  for a specific algorithm to solve, help (1) analyze
+                  the algorithm for accelerating it and (2) build a
+                  good benchmark for evaluating the performance of
+                  algorithms. There exist several efforts for
+                  automatic generation of hard instances. For example,
+                  evolutionary algorithms have been utilized to
+                  generate hard instances. However, they generate only
+                  finite number of hard instances. The merit of such
+                  methods is limited because it is difficult to
+                  extract meaningful patterns from small number of
+                  instances. We seek for a probabilistic generator of
+                  hard instances. Once the generative distribution of
+                  hard instances is obtained, we can sample a variety
+                  of hard instances to build a benchmark, and we can
+                  extract meaningful patterns of hard instances from
+                  sampled instances. The existing methods for modeling
+                  the hard instance distribution rely on parameters or
+                  rules that are found by domain experts; however,
+                  they are specific to the problem. Hence, it is
+                  challenging to model the distribution for general
+                  cases. In this paper, we focus on graph problems. We
+                  propose \textsc{HiSampler}, the hard instance
+                  sampler, to model the hard instance distribution of
+                  graph algorithms. \textsc{HiSampler} makes it
+                  possible to obtain the distribution of hard
+                  instances without hand-engineered features. To the
+                  best of our knowledge, this is the first method to
+                  learn the distribution of hard instances using
+                  machine learning. Through experiments, we
+                  demonstrate that our proposed method can generate
+                  instances that are a few to several orders of
+                  magnitude harder than the random-based approach in
+                  many settings. In particular, our method outperforms
+                  rule-based algorithms in the 3-coloring problem.}
+}
+
+@InProceedings{zhuang19,
+  title =	 {Multi-branch Siamese Network for High Performance
+                  Online Visual Tracking},
+  author =	 {Zhuang, Junfei and Dong, Yuan and Bai, Hongliang and
+                  Wang, Gang},
+  pages =	 {519-534},
+  crossref =	 {acml19},
+  abstract =	 {Recently, Siamese networks have drawn great
+                  attention in the visual tracking community because
+                  of their balanced accuracy and speed. However, most
+                  existing Siamese frameworks describe the target
+                  appearance using a global pattern from the last
+                  layer, leading to high sensitivity to similar
+                  distractors, non-rigid appearance change, and
+                  partial occlusion. Addressing these issues, we
+                  propose a Multi-branch Siamese network (MSiam) for
+                  high-performance object tracking. The MSiam performs
+                  layer-wise feature aggregations and simultaneously
+                  considers the global-local patterns for more
+                  accurate target tracking. In particular, we propose
+                  a feature aggregation module (FAM) keeping the
+                  heterogeneity of the three types of features,
+                  further improving the discriminability of MSiam
+                  using both high-level semantic and low-level spatial
+                  information. To enhance the adaptability to
+                  non-rigid appearance change and partial occlusion, a
+                  multi-scale local pattern detection module (LPDM) is
+                  designed to identify discriminative regions of the
+                  target objects. By considering various combinations
+                  of the local structures, our tracker can form
+                  various types of structure patterns. Extensive
+                  evaluations on five benchmarks demonstrate that the
+                  proposed tracking algorithm performs favorably
+                  against state-of-the-art methods while running
+                  beyond real-time.}
+}
+
+@InProceedings{kohjima19,
+  title =	 {Exemplar Based Mixture Models with Censored Data},
+  author =	 {Kohjima, Masahiro and Matsubayashi, Tatsushi and
+                  Toda, Hiroyuki},
+  pages =	 {535-550},
+  crossref =	 {acml19},
+  abstract =	 {In this paper, we propose a method that can handle
+                  censored data, data collected under the condition
+                  that the exact value is recorded only when the value
+                  is within a certain range, abbreviated information
+                  is recorded otherwise. It is known that existing
+                  methods that use mixture models with censored data
+                  suffer from (i)~the existence of local optimum
+                  solutions and (ii)~the need to compute the
+                  statistics of truncated distributions for parameter
+                  estimation. Our proposal, exemplar based censored
+                  mixture model~(EBCM), overcomes these two
+                  difficulties at once by adopting the exemplar based
+                  model approach. The effectiveness of EBCM is
+                  confirmed by experiments on synthetic and real world
+                  dat sets.}
+}
+
+@InProceedings{kawano19,
+  title =	 {Canonical Soft Time Warping},
+  author =	 {Kawano, Keisuke and Koide, Satoshi and Kutsuna,
+                  Takuro},
+  pages =	 {551-566},
+  crossref =	 {acml19},
+  abstract =	 {Alignment of two given sequences (i.e., computing
+                  correspondence between frames considering local time
+                  shifting) is a fundamental operation for various
+                  applications such as computer vision and
+                  bioinformatics. To obtain an alignment between
+                  high-dimensional sequences, several methods have
+                  been proposed, including canonical time warping
+                  (CTW). However, the optimization problem for CTW,
+                  and its extensions, often fall into poor local
+                  minima when the initial solution is far from the
+                  global optima. In this paper, we propose
+                  \emph{canonical soft time warping (CSTW)} in which
+                  an alignment is modeled as a probabilistic variable
+                  that follows the Gibbs distribution with
+                  temperature~$\gamma$. We also propose the annealing
+                  CSTW~(ACTW), a variant of CSTW that gradually
+                  decreases $\gamma$. ACTW is useful when underlying
+                  applications require hard alignments. Using
+                  synthetic and real-world data, we experimentally
+                  demonstrate that our proposed methods outperform
+                  previous methods, including CTW, in estimating
+                  alignments. In particular, our method does not
+                  suffer from poor local minima, as a consequence of
+                  the probabilistic treatment of alignments.}
+}
+
+@InProceedings{cui19a,
+  title =	 {Self-Weighted Multi-View Clustering with Deep Matrix
+                  Factorization},
+  author =	 {Cui, Beilei and Yu, Hong and Zhang, Tiantian and Li,
+                  Siwen},
+  pages =	 {567-582},
+  crossref =	 {acml19},
+  abstract =	 {Due to the efficiency of exploring multiple views of
+                  the real-word data, Multi-View Clustering (MVC) has
+                  attracted extensive attention from the scholars and
+                  researches based on it have made significant
+                  progress. However, multi-view data with numerous
+                  complementary information is vulnerable to various
+                  factors (such as noise). So it is an important and
+                  challenging task to discover the intrinsic
+                  characteristics hidden deeply in the data. In this
+                  paper, we present a novel MVC algorithm based on
+                  deep matrix factorization, named Self-Weighted
+                  Multi-view Clustering with Deep Matrix Factorization
+                  (SMDMF). By performing the deep decomposition
+                  structure, SMDMF can eliminate interference and
+                  reveal semantic information of the multi-view
+                  data. To properly integrate the complementary
+                  information among views, it assigns an automatic
+                  weight for each view without introducing
+                  supernumerary parameters. We also analyze the
+                  convergence of the algorithm and discuss the
+                  hierarchical parameters. The experimental results on
+                  four datasets show our algorithm is superior to
+                  other comparisons in all aspects.}
+}
+
+@InProceedings{osogami19,
+  title =	 {Real-time tree search with pessimistic scenarios:
+                  Winning the NeurIPS 2018 Pommerman Competition},
+  author =	 {Osogami, Takayuki and Takahashi, Toshihiro},
+  pages =	 {583-598},
+  crossref =	 {acml19},
+  abstract =	 {Autonomous agents need to make decisions in a
+                  sequential manner, under partially observable
+                  environment, and in consideration of how other
+                  agents behave. In critical situations, such
+                  decisions need to be made in real time for example
+                  to avoid collisions and recover to safe
+                  conditions. We propose a technique of tree search
+                  where a deterministic and pessimistic scenario is
+                  used after a specified depth. Because there is no
+                  branching with the deterministic scenario, the
+                  proposed technique allows us to take into account
+                  the events that can occur far ahead in the
+                  future. The effectiveness of the proposed technique
+                  is demonstrated in Pommerman, a multi-agent
+                  environment used in a NeurIPS 2018 competition,
+                  where the agents that implement the proposed
+                  technique have won the first and third places.}
+}
+
+@InProceedings{guo19,
+  title =	 {Variational Inference from Ranked Samples with
+                  Features},
+  author =	 {Guo, Yuan and Dy, Jennifer and Erdo\u{g}mu\c{s},
+                  Deniz and Kalpathy-Cramer, Jayashree and Ostmo,
+                  Susan and Campbell, J. Peter and Chiang, Michael
+                  F. and Ioannidis, Stratis},
+  pages =	 {599-614},
+  crossref =	 {acml19},
+  abstract =	 {In many supervised learning settings, elicited
+                  labels comprise pairwise comparisons or rankings of
+                  samples. We propose a Bayesian inference model for
+                  ranking datasets, allowing us to take a
+                  probabilistic approach to ranking inference. Our
+                  probabilistic assumptions are motivated by, and
+                  consistent with, the so-called Plackett-Luce
+                  model. We propose a variational inference method to
+                  extract a closed-form Gaussian posterior
+                  distribution. We show experimentally that the
+                  resulting posterior yields more reliable ranking
+                  predictions compared to predictions via point
+                  estimates.}
+}
+
+@InProceedings{peng19,
+  title =	 {Investigating the effect of novel classes in
+                  semi-supervised learning},
+  author =	 {Peng, Alex Yuxuan and Koh, Yun Sing and Riddle,
+                  Patricia and Pfahringer, Bernhard},
+  pages =	 {615-630},
+  crossref =	 {acml19},
+  abstract =	 {Semi-supervised learning usually assumes the
+                  distribution of the unlabelled data to be the same
+                  as that of the labelled data. This assumption does
+                  not always hold in practice. We empirically show
+                  that unlabelled data containing novel examples and
+                  classes from outside the distribution of the
+                  labelled data can lead to a performance degradation
+                  for semi-supervised learning algorithms. We propose
+                  a 1-nearest-neighbour based method to assign a
+                  weight to each unlabelled example in order to reduce
+                  the negative effect of novel classes in unlabelled
+                  data. Experimental results on MNIST, Fashion-MNIST
+                  and CIFAR-10 datasets suggest that the negative
+                  effect of novel classes becomes statistically
+                  insignificant when the proposed method is
+                  applied. Using our proposed technique, models
+                  trained on unlabelled data with novel classes can
+                  achieve similar performance as ones trained on clean
+                  unlabelled data.}
+}
+
+@InProceedings{huang19c,
+  title =	 {An Anchor-Free Oriented Text Detector with
+                  Connectionist Text Proposal Network},
+  author =	 {Huang, Chenhui and Xu, Jinhua},
+  pages =	 {631-645},
+  crossref =	 {acml19},
+  abstract =	 {Deep learning approaches have made great progress
+                  for the scene text detection in recent
+                  years. However, there are still some difficulties
+                  such as the text orientation and varying aspect
+                  ratios. In this paper, we address these issues by
+                  treating a text instance as a sequence of fine-scale
+                  proposals. The vertical distances from a text pixel
+                  to the text borders are directly regressed without
+                  the commonly used anchor mechanism, and then the
+                  small local proposals are connected during the
+                  post-processing. A U-shape convolutional neural
+                  network (CNN) architecture is used to incorporate
+                  the context information and detect small text
+                  instances. In experiments, the proposed approach,
+                  referred to as Anchor-Free oriented text detector
+                  with Connectionist Text Proposal Network (AFCTPN),
+                  achieves better or comparable performance with less
+                  time consumption on benchmark datasets.}
+}
+
+@InProceedings{amplayo19,
+  title =	 {Text Length Adaptation in Sentiment Classification},
+  author =	 {Amplayo, Reinald Kim and Lim, Seonjae and Hwang,
+                  Seung-won},
+  pages =	 {646-661},
+  crossref =	 {acml19},
+  abstract =	 {Can a text classifier generalize well for datasets
+                  where the text length is different? For example,
+                  when short reviews are sentiment-labeled, can these
+                  transfer to predict the sentiment of long reviews
+                  (i.e., short to long transfer), or vice versa? While
+                  unsupervised transfer learning has been well-studied
+                  for cross domain/lingual transfer tasks,
+                  \textbf{Cross Length Transfer} (CLT) has not yet
+                  been explored. One reason is the assumption that
+                  length difference is trivially transferable in
+                  classification. We show that it is not, because
+                  short/long texts differ in context richness and word
+                  intensity. We devise new benchmark datasets from
+                  diverse domains and languages, and show that
+                  existing models from similar tasks cannot deal with
+                  the unique challenge of transferring across text
+                  lengths. We introduce a strong baseline model called
+                  \textsc{BaggedCNN} that treats long texts as bags
+                  containing short texts. We propose a
+                  state-of-the-art CLT model called \textbf{Le}ngth
+                  \textbf{Tra}nsfer \textbf{Net}work\textbf{s}
+                  (\textsc{LeTraNets}) that introduces a two-way
+                  encoding scheme for short and long texts using
+                  multiple training mechanisms. We test our models and
+                  find that existing models perform worse than the
+                  \textsc{BaggedCNN} baseline, while
+                  \textsc{LeTraNets} outperforms all models.}
+}
+
+@InProceedings{cherief-abdellatif19,
+  title =	 {A Generalization Bound for Online Variational
+                  Inference},
+  author =	 {Ch\'erief-Abdellatif, Badr-Eddine and Alquier,
+                  Pierre and Khan, Mohammad Emtiyaz},
+  pages =	 {662-677},
+  crossref =	 {acml19},
+  abstract =	 {Bayesian inference provides an attractive
+                  online-learning framework to analyze sequential
+                  data, and offers generalization guarantees which
+                  hold even with model mismatch and
+                  adversaries. Unfortunately, exact Bayesian inference
+                  is rarely feasible in practice and approximation
+                  methods are usually employed, but do such methods
+                  preserve the generalization properties of Bayesian
+                  inference ? In this paper, we show that this is
+                  indeed the case for some variational inference (VI)
+                  algorithms. We consider a few existing online,
+                  tempered VI algorithms, as well as a new algorithm,
+                  and derive their generalization bounds. Our
+                  theoretical result relies on the convexity of the
+                  variational objective, but we argue that the result
+                  should hold more generally and present empirical
+                  evidence in support of this. Our work in this paper
+                  presents theoretical justifications in favor of
+                  online algorithms relying on approximate Bayesian
+                  methods.}
+}
+
+@InProceedings{park19,
+  title =	 {Regularizing Neural Networks via Stochastic Branch
+                  Layers},
+  author =	 {Park, Wonpyo and Seo, Paul Hongsuck and Han, Bohyung
+                  and Cho, Minsu},
+  pages =	 {678-693},
+  crossref =	 {acml19},
+  abstract =	 {We introduce a novel stochastic regularization
+                  technique for deep neural networks, which decomposes
+                  a layer into multiple branches with different
+                  parameters and merges stochastically sampled
+                  combinations of the outputs from the branches during
+                  training. Since the factorized branches can collapse
+                  into a single branch through a linear operation,
+                  inference requires no additional complexity compared
+                  to the ordinary layers. The proposed regularization
+                  method, referred to as StochasticBranch, is
+                  applicable to any linear layers such as
+                  fully-connected or convolution layers. The proposed
+                  regularizer allows the model to explore diverse
+                  regions of the model parameter space via multiple
+                  combinations of branches to find better local
+                  minima. An extensive set of experiments shows that
+                  our method effectively regularizes networks and
+                  further improves the generalization performance when
+                  used together with other existing regularization
+                  techniques.}
+}
+
+@InProceedings{hara19,
+  title =	 {SPoD-Net: Fast Recovery of Microscopic Images Using
+                  Learned ISTA},
+  author =	 {Hara, Satoshi and Chen, Weichih and Washio, Takashi
+                  and Wazawa, Tetsuichi and Nagai, Takeharu},
+  pages =	 {694-709},
+  crossref =	 {acml19},
+  abstract =	 {Recovering high quality images from microscopic
+                  observations is an essential technology in
+                  biological imaging. Existing recovery methods
+                  require solving an optimization problem by using
+                  iterative algorithms, which are computationally
+                  expensive and time consuming. The focus of this
+                  study is to accelerate the image recovery by using
+                  deep neural networks (DNNs). In our approach, we
+                  first train a certain type of DNN by using some
+                  observations from microscopes, so that it can well
+                  approximate the image recovery process. The recovery
+                  of a new observation is then computed thorough a
+                  single forward propagation in the trained DNN. In
+                  this study, we specifically focus on observations
+                  obtained by SPoD (Super-resolution by Polarization
+                  Demodulation), a recently developed microscopic
+                  technique, and accelerate the image recovery for
+                  SPoD by using DNNs. To this end, we propose
+                  \emph{SPoD-Net}, a specifically tailored DNN for
+                  fast recovery of SPoD images. Unlike general DNNs,
+                  SPoD-Net can be parameterized using a small number
+                  of parameters, which is helpful in two ways: (i) it
+                  can be stored in a small memory, and (ii) it can be
+                  trained efficiently. We also propose a method to
+                  stabilize the training of SPoD-Net. In the
+                  experiments with the real SPoD observations, we
+                  confirmed the effectiveness of SPoD-Net over
+                  existing recovery methods. Specifically, we observed
+                  that SPoD-Net could recover images with more than a
+                  hundred times faster than the existing method.}
+}
+
+@InProceedings{feng19,
+  title =	 {Improving Statute Prediction via Mining Correlations
+                  between Statutes},
+  author =	 {Feng, Yi and Li, Chuanyi and Ge, Jidong and Luo,
+                  Bin},
+  pages =	 {710-725},
+  crossref =	 {acml19},
+  abstract =	 {The task of statute prediction focuses on
+                  determining applicable statutes for legal cases with
+                  the inputs of fact descriptions, which is crucial
+                  for both legal experts and ordinary people without
+                  professional knowledge. Existing works just consider
+                  the correspondence from facts to individual statutes
+                  and ignore the correlations between
+                  statutes. Moreover, charges of cases have
+                  associations with statutes. To address these issues,
+                  we formulate statute prediction task as a sequence
+                  generation problem and propose a novel joint
+                  generative model to mine correlations between
+                  statutes. By integrating statute prediction task and
+                  charge prediction task, we also make model learn
+                  associations between statutes and
+                  charges. Experiments show our model outperforms
+                  several baselines significantly and correlative
+                  statutes are predicted accurately.}
+}
+
+@InProceedings{han19,
+  title =	 {Convolutional Neural Collaborative Filtering with
+                  Stacked Embeddings },
+  author =	 {Han, Liu and Wu, Hailong and Hu, Nan and Qu, Binbin},
+  pages =	 {726-741},
+  crossref =	 {acml19},
+  abstract =	 {Recommender System plays an important role in
+                  keeping people engaged with online services, and
+                  collaborative filtering is a main technique for
+                  recommendation. With the immense influence of deep
+                  learning, there is a growing interest in applying it
+                  to collaborative filtering. Existing methods have
+                  applied different ways to learn the user-item
+                  interaction function, however, most of these methods
+                  have limitation in modeling user-item correlations
+                  because they ignore the original user-item
+                  information and the large size of embeddings. In
+                  this work we propose Stacked Embedding Convolutional
+                  Neural Collaborative Filtering (SECNCF), a novel
+                  neural collaborative filtering architecture. The
+                  idea is to create a pedrail by stacking embeddings
+                  which are composed of user embedding, item embedding
+                  and latent factors. We apply convolutional neural
+                  network (CNN) above the pedrail layer to capture the
+                  local features of dimension correlations. This
+                  method is good at extracting rich local dimension
+                  correlations of embeddings and is scalable for
+                  modeling user-item interactions. Extensive
+                  experiments on three public accessible datasets show
+                  that our method makes significant improvement over
+                  the state-of-the-art methods.}
+}
+
+@InProceedings{liang19,
+  title =	 {A New Multi-choice Reading Comprehension Dataset for
+                  Curriculum Learning},
+  author =	 {Liang, Yichan and Li, Jianheng and Yin, Jian},
+  pages =	 {742-757},
+  crossref =	 {acml19},
+  abstract =	 {The past few years have witnessed the rapid
+                  development of machine reading comprehension (MRC),
+                  especially the challenging sub-task, multiple-choice
+                  reading comprehension (MCRC). And the release of
+                  large scale datasets promotes the research in this
+                  field. Yet previous methods have already achieved
+                  high accuracy of the MCRC datasets, \textit{e.g.}
+                  RACE. It's necessary to propose a more difficult
+                  dataset which needs more reasoning and inference for
+                  evaluating the understanding capability of new
+                  methods. To respond to such demand, we present
+                  RACE-C, a new multi-choice reading comprehension
+                  dataset collected from college English examinations
+                  in China. And further we integrate it with RACE-M
+                  and RACE-H, collected by {{Lai et al.}} ({2017})
+                  from middle and high school exams respectively, to
+                  extend RACE to be RACE++. Based on RACE++, we
+                  propose a three-stage curriculum learning framework,
+                  which is able to use the best of the characteristic
+                  that the difficulty level within these three
+                  sub-datasets is in ascending order. Statistics show
+                  the higher difficulty level of our collected
+                  dataset, RACE-C, compared to RACE's two
+                  sub-datasets, \textit{i.e.}, RACE-M and RACE-H. And
+                  experimental results demonstrate that our proposed
+                  three-stage curriculum learning approach improves
+                  the performance of the machine reading comprehension
+                  model to an extent.}
+}
+
+@InProceedings{qiu19,
+  title =	 {Prediction of Crowd Flow in City Complex with
+                  Missing Data},
+  author =	 {Qiu, Shiyang and Xu, Peng and Zheng, Wei and Wang,
+                  Junjie and Yu, Guo and Hou, Mingyao and Liu,
+                  Hengchang},
+  pages =	 {758-773},
+  crossref =	 {acml19},
+  abstract =	 {Crowd flow forecasting plays an important role in
+                  risk assessment and public safety. It is a difficult
+                  task due to complex spatial-temporal dependencies as
+                  well as missing values in data. A number of models
+                  are proposed to predict crowd flow on city-scale,
+                  yet the missing pattern in city complex environment
+                  is seldomly considered. We propose a crowd flow
+                  forecasting model, Imputed Spatial-Temporal
+                  Convolution network(ISTC) to accurately predict the
+                  crowd flow in large complex buildings. ISTC uses
+                  convolution layers, whose structures are configured
+                  by graphs, to model the spatial-temporal
+                  correlations. Meanwhile ISTC adds imputation layers
+                  to handle the missing data. We demonstrate our model
+                  on several real data sets collected from sensors in
+                  a large six-floor commercial complex building. The
+                  results show that ISTC outperforms the baseline
+                  methods and is capable of handling data with as much
+                  as 40\% missing data.}
+}
+
+@InProceedings{kato19,
+  title =	 {Learning Weighted Top-$k$ Support Vector Machine},
+  author =	 {Kato, Tsuyoshi and Hirohashi, Yoshihiro},
+  pages =	 {774-789},
+  crossref =	 {acml19},
+  abstract =	 {Nowadays, the top-$k$ accuracy is a major
+                  performance criterion when benchmarking multi-class
+                  classifier using datasets with a large number of
+                  categories. Top-$k$ multiclass SVM has been designed
+                  with the aim to minimize the empirical risk based on
+                  the top-$k$ accuracy. There already exist two
+                  SDCA-based algorithms to learn the top-$k$ SVM,
+                  enjoying several preferable properties for
+                  optimization, although both the algorithms suffer
+                  from two disadvantages. A weak point is that, since
+                  the design of the algorithms are specialized only to
+                  the top-$k$ hinge, their applicability to other
+                  variants is limited. The other disadvantage is that
+                  both the two algorithms cannot attain the optimal
+                  solution in most cases due to their theoritical
+                  imperfections. In this study, a weighted extension
+                  of top-$k$ SVM is considered, and novel learning
+                  algorithms based on the Frank-Wolfe algorithm is
+                  devised. The new learning algorithms possess all the
+                  favorable properties of SDCA as well as the
+                  applicability not only to the original top-$k$ SVM
+                  but also to the weighted extension. Geometrical
+                  convergence is achieved by smoothing the loss
+                  functions. Numerical simulations demonstrate that
+                  only the proposed Frank-Wolfe algorithms can
+                  converge to the optimum, in contrast with the
+                  failure of the two existing SDCA-based
+                  algorithms. Finally, our analytical results for
+                  these two studies are presented to shed light on the
+                  meaning of the solutions produced from their
+                  algorithms. }
+}
+
+@InProceedings{seyedi19,
+  title =	 {Self-Paced Multi-Label Learning with Diversity},
+  author =	 {Seyedi, Seyed Amjad and Ghodsi, S. Siamak and
+                  Akhlaghian, Fardin and Jalili, Mahdi and Moradi,
+                  Parham},
+  pages =	 {790-805},
+  crossref =	 {acml19},
+  abstract =	 {The major challenge of learning from multi-label
+                  data has arisen from the overwhelming size of label
+                  space which makes this problem NP-hard. This problem
+                  can be alleviated by gradually involving easy to
+                  hard tags into the learning process. Besides, the
+                  utilization of a diversity maintenance approach
+                  avoids overfitting on a subset of easy labels. In
+                  this paper, we propose a self-paced multi-label
+                  learning with diversity (SPMLD) which aims to cover
+                  diverse labels with respect to its learning pace. In
+                  addition, the proposed framework is applied to an
+                  efficient correlation-based multi-label method. The
+                  non-convex objective function is optimized by an
+                  extension of the block coordinate descent
+                  algorithm. Empirical evaluations on real-world
+                  datasets with different dimensions of features and
+                  labels imply the effectiveness of the proposed
+                  predictive model.}
+}
+
+@InProceedings{zhang19c,
+  title =	 {Software Component Prediction for Bug Reports},
+  author =	 {Zhang, Wei and Challis, Chris},
+  pages =	 {806-821},
+  crossref =	 {acml19},
+  abstract =	 {In a software life cycle, bugs could happen at any
+                  time. Assigning bugs to relevant
+                  components/developers is a crucial task for software
+                  development. It is also a tough and resource
+                  consuming job. First, there are many components in a
+                  complex system and it is hard to understand their
+                  interactions and identify the root cause. Second,
+                  the list of components keeps growing for actively
+                  developed products and it is not easy to catch all
+                  updates. This task also faces several challenges
+                  from the machine learning point of view: 1) the
+                  ground truth is mixed with multiple levels of
+                  labels; 2) the data are severely
+                  imbalanced. 3). concept drift as future bugs are
+                  unlikely to come from the same distribution as the
+                  historical data. In this paper, we present a machine
+                  learning based solution for the bug assignment
+                  problem. We build component classifiers using a
+                  multi-layer Neural Network, based on features that
+                  were learned from data directly. A hierarchical
+                  classification framework is proposed to address the
+                  mixed label problem and improve the prediction
+                  accuracy. We also introduce a recency based sampling
+                  procedure to alleviate the data imbalance and
+                  concept drift problem. Our solution can easily
+                  accommodate new data and handle continuous system
+                  development/update.}
+}
+
+@InProceedings{baloch19,
+  title =	 {Focused Anchors Loss: cost-sensitive learning of
+                  discriminative features for imbalanced
+                  classification},
+  author =	 {Baloch, Bahram K. and Kumar, Sateesh and Haresh,
+                  Sanjay and Rehman, Abeerah and Syed, Tahir},
+  pages =	 {822-835},
+  crossref =	 {acml19},
+  abstract =	 {Deep Neural Networks (DNNs) usually suffer
+                  performance penalties when there is a skewed label
+                  distribution. This phenomenon, class-imbalance, is
+                  most often mitigated peripheral to the
+                  classification algorithm itself, usually by
+                  modifying the amount of examples per class, for
+                  oversampling at the expense of computational
+                  efficiency, and for undersampling at the expense of
+                  statistical efficiency. In our solution, we combine
+                  discriminative feature learning with cost-sensitive
+                  learning to tackle the class imbalance problem by
+                  using a two step loss function, which we call the
+                  Focused Anchors loss (FAL). We evaluate FAL and its
+                  variant, Focused Anchor Mean Loss (FAML), on $6$
+                  different datasets in comparison of traditional
+                  cross entropy loss and we observe a significant gain
+                  in balanced accuracy for all datasets. We also
+                  perform better than time-costly re-sampling and
+                  ensemble methods like SMOTE and Near Miss in $4$ out
+                  of $6$ datasets across F1-score, AUC-ROC and
+                  balanced accuracy. We also extend our evaluation to
+                  image domain and use long-tailed CIFAR$10$ to
+                  evaluate our loss function where we consistently
+                  report significant improvement in accuracy. We then
+                  go on to test our loss function under extreme
+                  imbalance on a propriety dataset and achieve a gain
+                  of $0.1$ AUC-ROC over the baseline.}
+}
+
+@InProceedings{upadhya19,
+  title =	 {Efficient Learning of Restricted Boltzmann Machines
+                  Using Covariance Estimates},
+  author =	 {Upadhya, Vidyadhar and Sastry, P S},
+  pages =	 {836-851},
+  crossref =	 {acml19},
+  abstract =	 {Learning RBMs using standard algorithms such as
+                  CD(k) involves gradient descent on the negative
+                  log-likelihood. One of the terms in the gradient,
+                  which involves expectation w.r.t. the model
+                  distribution, is intractable and is obtained through
+                  an MCMC estimate. In this work we show that the
+                  Hessian of the log-likelihood can be written in
+                  terms of covariances of hidden and visible units and
+                  hence, all elements of the Hessian can also be
+                  estimated using the same MCMC samples with small
+                  extra computational costs. Since inverting the
+                  Hessian may be computationally expensive, we propose
+                  an algorithm that uses inverse of the diagonal
+                  approximation of the Hessian, instead. This
+                  essentially results in parameter-specific adaptive
+                  learning rates for the gradient descent process and
+                  improves the efficiency of learning RBMs compared to
+                  the standard methods. Specifically we show that
+                  using the inverse of diagonal approximation of
+                  Hessian in the stochastic DC (difference of convex
+                  functions) program approach results in very
+                  efficient learning of RBMs.}
+}
+
+@InProceedings{cui19b,
+  title =	 {Multi-width Activation and Multiple Receptive Field
+                  Networks for Dynamic Scene Deblurring},
+  author =	 {Cui, Jinkai and Li, Weihong and Guo, Wei and Gong,
+                  Weiguo},
+  pages =	 {852-867},
+  crossref =	 {acml19},
+  abstract =	 {In this paper, we propose an end-to-end multi-width
+                  activation and multiple receptive field networks for
+                  the large-scale and complicated dynamic scene
+                  deblurring. Firstly, we design a multi-width
+                  activation feature extraction module, in which a
+                  multi-width activation residual block is proposed
+                  for making the activation function learn more the
+                  nonlinear information and extracting wider nonlinear
+                  features. Secondly, we design a multiple receptive
+                  field (RF) feature extraction module, in which a
+                  multiple RF residual block is proposed for enlarging
+                  the RF efficiently and capturing more nonlinear
+                  information from distant locations. And then, we
+                  design the multi-scale feature fusion module, where
+                  a learning fusion structure is designed to
+                  adaptively fuse the multi-scale features and
+                  complicated blur information from the different
+                  modules. Finally, we use a multi-component loss
+                  function to jointly optimize our networks. Extensive
+                  experimental results demonstrate that the proposed
+                  method outperforms the recent state-of-the-art
+                  deblurring methods, both quantitatively and
+                  qualitatively.}
+}
+
+@InProceedings{hachiya19,
+  title =	 {Adaptive truncated residual regression for
+                  fine-grained regression problems},
+  author =	 {Hachiya, Hirotaka and Yamamoto, Yu and Hirahara,
+                  Kazuro and Ueda, Naonori},
+  pages =	 {868-882},
+  crossref =	 {acml19},
+  abstract =	 {Recently, anchor-based regression methods have been
+                  applied to challenging regression problems, e.g.,
+                  object detection and distance estimation, and
+                  greatly improved those performances. The key idea of
+                  anchor-based regression is to solve the regression
+                  of the residuals between selected anchors and
+                  original target variable, where the variance is
+                  expected to be smaller. However, similar to an
+                  ordinary regression method, the anchor-based
+                  regression could face difficulty on a fine-grained
+                  regression and ill-posed problems where the residual
+                  variables tend to be too small and complicated to
+                  accurately predict. To overcome these problems on
+                  the anchor-based regression, we propose to introduce
+                  an adaptive residual encoding in which the too small
+                  residual is magnified, and the too-large residual is
+                  truncated using adaptively tuned sigmoidal
+                  function. Our proposed method, called ATR-Nets
+                  (Adaptive Truncated Residual-Networks) with an
+                  end-to-end architecture could control the range of
+                  the target residual to be fitted based on the
+                  regression performance, Through experiments with
+                  toy-data and the system identification for
+                  earthquake asperity models, we show the
+                  effectiveness of our proposed method.}
+}
+
+@InProceedings{lv19,
+  title =	 {Surface Reconstruction based on Self-Merging Octree
+                  with Deep Learning},
+  author =	 {Lv, Jian and Han, Xie and Zheng, Jiajie and Xiong,
+                  Fengguang and Pang, Min},
+  pages =	 {883-896},
+  crossref =	 {acml19},
+  abstract =	 {A model segment method called Octree Subdivision has
+                  been presented for long years, which allows any
+                  three-dimensional point cloud object to be
+                  subdivided into infinitesimals so that it can be
+                  approximated by a particular surface function. In
+                  this paper, we proposed a new method named
+                  self-merging octree to reconstruct the surface of 3D
+                  Point Cloud which can be obtained by laser scanners
+                  or generated by some 3D modeling software. Different
+                  from any other surface reconstruction algorithms
+                  such as local property-based or specific type-based,
+                  a function pool-based was introduced in our research
+                  because it can express many different types of
+                  surfaces. We subdivide point cloud model by
+                  self-merging octree and categorize it by the
+                  neuro-network. In this idea, it is easy for us to
+                  find a proper surface function to present the
+                  subsurface of the model. What`s more, while we
+                  extend the function pool, we can indicate far more
+                  style models. We have tried to reconstruct many
+                  point cloud models` surfaces in this way, and it
+                  works well and also shows its potential ability to
+                  build a bridge in the fields of model editing, model
+                  splicing, and model deformation.}
+}
+
+@InProceedings{li19b,
+  title =	 {Separate Loss for Basic and Compound Facial
+                  Expression Recognition in the Wild},
+  author =	 {Li, Yingjian and Lu, Yao and Li, Jinxing and Lu,
+                  Guangming},
+  pages =	 {897-911},
+  crossref =	 {acml19},
+  abstract =	 {In the past few years, facial expression recognition
+                  has made great progress because of the development
+                  of convolutional neural networks. However, the
+                  features learned only using the softmax loss are not
+                  discriminative enough for highly accurate facial
+                  expression recognition in the wild, especially for
+                  the compound facial expression recognition. To
+                  enhance the discriminative power of the learned
+                  features, we propose the separate loss for both
+                  basic and compound facial expression recognition in
+                  the wild in this paper. Such loss maximizes
+                  intra-class similarity while minimizing the
+                  similarity between different classes. The
+                  qualitative and quantitative analysis shows that the
+                  features learned using such loss function are
+                  characterized by intra-class compactness and
+                  inter-class separation. Experiments are performed on
+                  two databases in the wild and the proposed method
+                  achieves state-of-the-art results on both basic and
+                  compound expressions. Furthermore, another two
+                  databases are used to perform cross database
+                  experiments to show the generalization ability of
+                  our method.}
+}
+
+@InProceedings{zhou19,
+  title =	 {LADet: A Light-weight and Adaptive Network for
+                  Multi-scale Object Detection},
+  author =	 {Zhou, Jiaming and Tian, Yuqiao and Li, Weicheng and
+                  Wang, Rui and Luan, Zhongzhi and Qian, Depei},
+  pages =	 {912-923},
+  crossref =	 {acml19},
+  abstract =	 {Scale variation is one of the most significant
+                  challenges for object detection task. In comparison
+                  with previous one-stage object detectors that simply
+                  make feature pyramid network deeper without
+                  consideration of speed, we propose a novel one-stage
+                  object detector called LADet, which consists of two
+                  parts, Adaptive Feature Pyramid Module(AFPM) and
+                  Light-weight Classification Function
+                  Module(LCFM). Adaptive Feature Pyramid Module
+                  generates complementary semantic information for
+                  each level feature map by jointly utilizing
+                  multi-level feature maps from backbone network,
+                  which is different from the top-down
+                  manner. Light-weight Classification Function Module
+                  is able to exploit more type of anchor boxes without
+                  a dramatic increase of parameters because of the
+                  utilization of interleaved group
+                  convolution. Extensive experiments on PASCAL VOC and
+                  MS COCO benchmark demonstrate that our model
+                  achieves a better trade-off between accuracy and
+                  efficiency over the comparable state-of-the-art
+                  detection methods.}
+}
+
+@InProceedings{lei19,
+  title =	 {Fusing Recalibrated Features and Depthwise Separable
+                  Convolution for the Mangrove Bird Sound
+                  Classification},
+  author =	 {Lei, Chongqin and Gong, Weiguo and Wang, Zixu},
+  pages =	 {924-939},
+  crossref =	 {acml19},
+  abstract =	 {The bird community in the mangrove areas is an
+                  important component of the mangrove wetlands
+                  ecosystem and an indicator species for the
+                  assessment of the environmental health status of
+                  mangrove wetlands. The classification of bird
+                  species by the sound of bird in the mangrove areas
+                  has the advantages of less interference to the
+                  environment and wide monitoring range. In this
+                  paper, we propose a novel method that combines the
+                  feature recalibration mechanism with depthwise
+                  separable convolution for the mangrove bird sound
+                  classification. In the proposed method, we introduce
+                  Xception network in which depthwise separable
+                  convolution with lower parameter number and
+                  computational cost than traditional convolution can
+                  be stacked in a residual manner, as the baseline
+                  network. And we fuse the feature recalibration
+                  mechanism into the depthwise separable convolution
+                  for actively learning the weights of the feature
+                  channels in the network layer, so that we can
+                  enhance the important features in bird sound signals
+                  to improve the performance of the classification. In
+                  the proposed method, firstly we extract
+                  three-channel log-mel features of the bird sound
+                  signals and we introduce the mixup method to augment
+                  the extracted features. Secondly, we construct the
+                  recalibrated feature maps including the different
+                  scales of information to get the classification
+                  results. To verify the effectiveness of the proposed
+                  method, we build a dataset with 9282 samples
+                  including 25 kinds of the mangrove birds such as
+                  Egretta alba, Parus major, Charadrius dubius,
+                  etc. habiting in the mangroves of Fangcheng Port of
+                  China, and execute the experiments on the built
+                  dataset. Furthermore, we also validate the
+                  adaptability of our proposed method on the dataset
+                  of TAU Urban Acoustic Scenes 2019, and achieve a
+                  better result.}
+}
+
+@InProceedings{zheng19,
+  title =	 {Multi-Scale Visual Semantics Aggregation with
+                  Self-Attention for End-to-End Image-Text Matching},
+  author =	 {Zheng, Zhuobin and Ben, Youcheng and Yuan, Chun},
+  pages =	 {940-955},
+  crossref =	 {acml19},
+  abstract =	 {The bird community in the mangrove areas is an
+                  important component of the mangrove wetlands
+                  ecosystem and an indicator species for the
+                  assessment of the environmental health status of
+                  mangrove wetlands. The classification of bird
+                  species by the sound of bird in the mangrove areas
+                  has the advantages of less interference to the
+                  environment and wide monitoring range. In this
+                  paper, we propose a novel method that combines the
+                  feature recalibration mechanism with depthwise
+                  separable convolution for the mangrove bird sound
+                  classification. In the proposed method, we introduce
+                  Xception network in which depthwise separable
+                  convolution with lower parameter number and
+                  computational cost than traditional convolution can
+                  be stacked in a residual manner, as the baseline
+                  network. And we fuse the feature recalibration
+                  mechanism into the depthwise separable convolution
+                  for actively learning the weights of the feature
+                  channels in the network layer, so that we can
+                  enhance the important features in bird sound signals
+                  to improve the performance of the classification. In
+                  the proposed method, firstly we extract
+                  three-channel log-mel features of the bird sound
+                  signals and we introduce the mixup method to augment
+                  the extracted features. Secondly, we construct the
+                  recalibrated feature maps including the different
+                  scales of information to get the classification
+                  results. To verify the effectiveness of the proposed
+                  method, we build a dataset with 9282 samples
+                  including 25 kinds of the mangrove birds such as
+                  Egretta alba, Parus major, Charadrius dubius,
+                  etc. habiting in the mangroves of Fangcheng Port of
+                  China, and execute the experiments on the built
+                  dataset. Furthermore, we also validate the
+                  adaptability of our proposed method on the dataset
+                  of TAU Urban Acoustic Scenes 2019, and achieve a
+                  better result.}
+}
+
+@InProceedings{takeishi19,
+  title =	 {Kernel Learning for Data-Driven Spectral Analysis of
+                  Koopman Operators},
+  author =	 {Takeishi, Naoya},
+  pages =	 {956-971},
+  crossref =	 {acml19},
+  abstract =	 {Spectral analysis of the Koopman operators is a
+                  useful tool for studying nonlinear dynamical systems
+                  and has been utilized in various branches of science
+                  and engineering for purposes such as understanding
+                  complex phenomena and designing a
+                  controller. Several methods to compute the Koopman
+                  spectral analysis have been studied, among which
+                  data-driven methods are attracting attention. We
+                  focus on one of the popular data-driven methods,
+                  which is based on the Galerkin approximation of the
+                  operator using a basis estimated in a data-driven
+                  manner via the diffusion maps algorithm. The
+                  performance of this method with a finite amount of
+                  data depends on the choice of the kernel function
+                  used in diffusion maps, which creates a need for
+                  kernel selection. In this paper, we propose a method
+                  to learn the kernel function adaptively to obtain
+                  better performance in approximating spectra of the
+                  Koopman operator using the Galerkin approximation
+                  with diffusion maps. The proposed method depends on
+                  the multiple kernel learning scheme, and our
+                  objective function is based on the idea that a
+                  diffusion operator should commute with the Koopman
+                  operator. We also show the effectiveness of the
+                  proposed method empirically with numerical
+                  examples.}
+}
+
+@InProceedings{liu19a,
+  title =	 {Nuclei segmentation by using convolutional network
+                  with distance map and contour information},
+  author =	 {Liu, Xiaoming and Guo, Zhengsheng and Li, Bo and
+                  Cao, Jun},
+  pages =	 {972-986},
+  crossref =	 {acml19},
+  abstract =	 {Accurate access to nuclear information on digital
+                  pathology images can assist physicians in diagnosis
+                  and subsequent treatment. The pathological images
+                  have a large number of nuclei and part of nuclei is
+                  touching, manual segmentation is time consuming and
+                  error prone. Therefore it is an important task to
+                  develop a accurate nuclei segmentation method. For
+                  traditional methods, it is hard to obtain a
+                  accurately nuclei segmentation result, because the
+                  nuclei have many different characterizations. In
+                  this paper, we propose a new nuclei segmentation
+                  method (MDC-Net), which is a deep fully
+                  convolutional network. The network contains multiple
+                  residual operations to reduce detail loss in
+                  image. In addition, dilated convolution which has
+                  different dilation ratio is used to increase
+                  receptive field. MDC-Net contains the distance map
+                  and contour image, enhancing information on
+                  individual nuclei to get accurate segmentation
+                  results. We improve the segmentation effect by using
+                  the post-processing operate. We demonstrate that
+                  MDC-Net can obtain state-of-the-art results on
+                  public dataset with multiple organ slices compared
+                  with other popular methods.}
+}
+
+@InProceedings{liu19b,
+  title =	 {Unpaired Data based Cross-domain Synthesis and
+                  Segmentation Using Attention Neural Network},
+  author =	 {Liu, Xiaoming and Wei, Xiangkai and Yu, Aihui and
+                  Pan, Zhifang},
+  pages =	 {987-1000},
+  crossref =	 {acml19},
+  abstract =	 {Medical images from different modalities (e.g. MRI,
+                  CT) or contrasts (e.g. T1, T2) are usually used to
+                  extract abundant information for medical image
+                  analysis. Some modalities or contrasts may be
+                  degraded or missing, caused by artifacts or strict
+                  timing during acquisition. Thus synthesizing
+                  realistic medical images in the required domain is
+                  meaningful and helpful for clinical
+                  application. Meanwhile, due to the time-consuming of
+                  manual annotation, automatic medical image
+                  segmentation has attracted much attention. In this
+                  paper, we propose an end-to-end cross-domain
+                  synthesis and segmentation framework SSA-Net. It is
+                  based on cycle generative adversarial network
+                  (CycleGAN) for unpaired data. We introduce a
+                  gradient consistent term to refine the boundaries in
+                  synthesized images. Besides, we design a special
+                  shape consistent term to constrain the anatomical
+                  structure in synthesized images and to guide
+                  segmentation without target domian labels. In order
+                  to make the synthesis subnet focusing on some
+                  hard-to-learn regions automatically, we also
+                  introduce the attention block into the generator. On
+                  two challenging validation datasets (CHAOS and
+                  iSeg-2017), the proposed method achieves superior
+                  synthesis performance and comparable segmentation
+                  performance.}
+}
+
+@InProceedings{sun19,
+  title =	 {Self-Supervised Deep Multi-View Subspace Clustering},
+  author =	 {Sun, Xiukun and Cheng, Miaomiao and Min, Chen and
+                  Jing, Liping},
+  pages =	 {1001-1016},
+  crossref =	 {acml19},
+  abstract =	 {As a new occurring unsupervised method, multi-view
+                  clustering offers a good way to investigate the
+                  hidden structure from multi-view data and attracts
+                  extensive attention in the community of machine
+                  learning and data mining. One popular approach is to
+                  identify a common latent subspace for capturing the
+                  multi-view information. However, these methods are
+                  still limited due to the unsupervised learning
+                  process and suffer from considerable noisy
+                  information from different views. To address this
+                  issue, we present a novel multi-view subspace
+                  clustering method, named self-supervised deep
+                  multi-view subspace clustering
+                  (\textbf{S2DMVSC}). It seamlessly integrates
+                  spectral clustering and affinity learning into a
+                  deep learning framework. \textbf{S2DMVSC} has two
+                  main merits. One is that the clustering results can
+                  be sufficiently exploited to supervise the latent
+                  representation learning for each view (via a
+                  classification loss) and the common latent subspace
+                  learning (via a spectral clustering loss) for
+                  multiple views. The other is that the affinity
+                  matrix among data objects is automatically computed
+                  according to the high-level and cluster-driven
+                  representation. Experiments on two scenarios,
+                  including original features and multiple
+                  hand-crafted features, demonstrate the superiority
+                  of the proposed approach over the state-of-the-art
+                  baselines.}
+}
+
+@InProceedings{hayashi19,
+  title =	 {Active Change-Point Detection},
+  author =	 {Hayashi, Shogo and Kawahara, Yoshinobu and Kashima,
+                  Hisashi},
+  pages =	 {1017-1032},
+  crossref =	 {acml19},
+  abstract =	 {We introduce Active Change-Point Detection (ACPD), a
+                  novel active learning problem for efficient
+                  change-point detection in situations where the cost
+                  of data acquisition is expensive. At each round of
+                  ACPD, the task is to adaptively determine the next
+                  input, in order to detect the change-point in a
+                  black-box expensive-to-evaluate function, with as
+                  few evaluations as possible. We propose a novel
+                  framework that can be generalized for different
+                  types of data and change-points, by utilizing an
+                  existing change-point detection method to compute
+                  change scores and a Bayesian optimization method to
+                  determine the next input. We demonstrate the
+                  efficiency of our proposed framework in different
+                  settings of datasets and change-points, using
+                  synthetic data and real-world data, such as material
+                  science data and seafloor depth data.}
+}
+
+@InProceedings{kim19a,
+  title =	 {Trust Region Sequential Variational Inference},
+  author =	 {Kim, Geon-Hyeong and Jang, Youngsoo and Lee, Jongmin
+                  and Jeon, Wonseok and Yang, Hongseok and Kim,
+                  Kee-Eung},
+  pages =	 {1033-1048},
+  crossref =	 {acml19},
+  abstract =	 {Stochastic variational inference has emerged as an
+                  effective method for performing inference on or
+                  learning complex models for data. Yet, one of the
+                  challenges in stochastic variational inference is
+                  handling high-dimensional data, such as sequential
+                  data, and models with non-differentiable densities
+                  caused by, for instance, the use of discrete latent
+                  variables. In such cases, it is challenging to
+                  control the variance of the gradient estimator used
+                  in stochastic variational inference, while low
+                  variance is often one of the key properties needed
+                  for successful inference. In this work, we present a
+                  new algorithm for stochastic variational inference
+                  of sequential models which trades off bias for
+                  variance to tackle this challenge effectively. Our
+                  algorithm is inspired by variance reduction
+                  techniques in reinforcement learning, yet it
+                  uniquely adopts their key ideas in the context of
+                  stochastic variational inference. We demonstrate the
+                  effectiveness of our approach through formal
+                  analysis and experiments on synthetic and real-world
+                  datasets.}
+}
+
+@InProceedings{liu19c,
+  title =	 {SDC-causing Error Detection Based on Lightweight
+                  Vulnerability Prediction},
+  author =	 {Liu, Cheng and Gu, Jingjing and Yan, Zujia and
+                  Zhuang, Fuzhen and Wang, Yunyun},
+  pages =	 {1049-1064},
+  crossref =	 {acml19},
+  abstract =	 {Nowadays the system vulnerability caused by soft
+                  errors grows exponentially, of which Silent Data
+                  Corruption(SDC) is one of the most harmful issues
+                  due to introducing unnoticed changes to the original
+                  data and error outputs. Thus, the detection of
+                  SDC-causing errors is extremely significant to the
+                  system reliability. However, most of the current
+                  detecting techniques require sufficient data of
+                  fault injections for training, which are difficult
+                  to achieve in practice because of high resources
+                  consumption, such as expensive execution time and
+                  code size costs. To this end, we propose a
+                  lightweight model named Deep Forest Regression based
+                  Multi-granularity Redundancy(DFRMR) to improve the
+                  error detection rate and meanwhile decrease the
+                  resources consumption. Specifically, first, we
+                  employ the program analysis to extract instruction
+                  features which are highly related to SDCs. Second,
+                  we design the deep forest regression model to
+                  predict the SDC vulnerability of
+                  instructions. Third, we optimize the error detection
+                  procedure by duplicating the critical instructions
+                  with different granularity. Finally, we evaluate our
+                  DFRMR model on Mibench benchmarks with multiple
+                  testing programs. The results show that our method
+                  attains better detection accuracy compared to other
+                  state-of-the-art methods and keeps the low
+                  multi-granularity redundancy.}
+}
+
+@InProceedings{suzuki19,
+  title =	 {Hyperbolic Ordinal Embedding},
+  author =	 {Suzuki, Atsushi and Wang, Jing and Tian, Feng and
+                  Nitanda, Atsushi and Yamanishi, Kenji},
+  pages =	 {1065-1080},
+  crossref =	 {acml19},
+  abstract =	 {Given ordinal relations such as the object $i$ is
+                  more similar to $j$ than $k$ is to $l$, ordinal
+                  embedding is to embed these objects into a
+                  low-dimensional space with all ordinal constraints
+                  preserved. Although existing approaches have
+                  preserved ordinal relations in Euclidean space,
+                  whether Euclidean space is compatible with true data
+                  structure is largely ignored, although it is
+                  essential to effective embedding. Since real data
+                  often exhibit hierarchical structure, it is hard for
+                  Euclidean space approaches to achieve effective
+                  embeddings in low dimensionality, which incurs high
+                  computational complexity or overfitting. In this
+                  paper we propose a novel hyperbolic ordinal
+                  embedding (HOE) method to embed objects in
+                  hyperbolic space. Due to the hierarchy-friendly
+                  property of hyperbolic space, HOE can effectively
+                  capture the hierarchy to achieve embeddings in an
+                  extremely low-dimensional space. We have not only
+                  theoretically proved the superiority of hyperbolic
+                  space and the limitations of Euclidean space for
+                  embedding hierarchical data, but also experimentally
+                  demonstrated that HOE significantly outperforms
+                  Euclidean-based methods.}
+}
+
+@InProceedings{shin19,
+  title =	 {Effective Sentence Scoring Method Using BERT for
+                  Speech Recognition},
+  author =	 {Shin, Joonbo and Lee, Yoonhyung and Jung, Kyomin},
+  pages =	 {1081-1093},
+  crossref =	 {acml19},
+  abstract =	 {In automatic speech recognition, language models
+                  (LMs) have been used in many ways to improve
+                  performance. Some of the studies have tried to use
+                  bidirectional LMs (biLMs) for rescoring the $n$-best
+                  hypothesis list decoded from the acoustic
+                  model. Despite their theoretical advantages over
+                  conventional unidirectional LMs (uniLMs), previous
+                  biLMs have not given notable improvements compared
+                  to the uniLMs in the experiments. This is due to the
+                  architectural limitation that the rightward and
+                  leftward representations are not fused in the
+                  biLMs. Recently, BERT addressed the same issue by
+                  proposing the masked language modeling and achieved
+                  state-of-the-art performances in many downstream
+                  tasks by fine-tuning the pre-trained BERT. In this
+                  paper, we propose an effective sentence scoring
+                  method by adjusting the BERT to the $n$-best list
+                  rescoring task, which has no fine-tuning step. The
+                  core idea of how we modify the BERT for the
+                  rescoring task is bridging the gap between training
+                  and testing environments by considering the only
+                  masked language modeling within a single
+                  sentence. Experimental results on the LibriSpeech
+                  corpus show that the proposed scoring method using
+                  our biLM outperforms uniLMs for the $n$-best list
+                  rescoring, consistently and significantly in all
+                  experimental conditions. Additionally, an analysis
+                  about where word errors occur in a sentence
+                  demonstrates that our biLM is more robust than the
+                  uniLM especially when a recognized sentence is short
+                  or a misrecognized word is at the beginning of the
+                  sentence. Consequently, we empirically prove that
+                  the left and right representations should be fused
+                  in biLMs for scoring a sentence.}
+}
+
+@InProceedings{gouk19,
+  title =	 {Stochastic Gradient Trees},
+  author =	 {Gouk, Henry and Pfahringer, Bernhard and Frank,
+                  Eibe},
+  pages =	 {1094-1109},
+  crossref =	 {acml19},
+  abstract =	 {We present an algorithm for learning decision trees
+                  using stochastic gradient information as the source
+                  of supervision. In contrast to previous approaches
+                  to gradient-based tree learning, our method operates
+                  in the incremental learning setting rather than the
+                  batch learning setting, and does not make use of
+                  soft splits or require the construction of a new
+                  tree for every update. We demonstrate how one can
+                  apply these decision trees to different problems by
+                  changing only the loss function, using
+                  classification, regression, and multi-instance
+                  learning as example applications. In the
+                  experimental evaluation, our method performs
+                  similarly to standard incremental classification
+                  trees, outperforms state of the art incremental
+                  regression trees, and achieves comparable
+                  performance with batch multi-instance learning
+                  methods.}
+}
+
+@InProceedings{melnikov19,
+  title =	 {Learning to Aggregate: Tackling the
+                  Aggregation/Disaggregation Problem for OWA},
+  author =	 {Melnikov, Vitalik and H{\"u}llermeier, Eyke},
+  pages =	 {1110-1125},
+  crossref =	 {acml19},
+  abstract =	 {The problem of ``learning to aggregate'' (LTA) has
+                  recently been introduced as a novel machine learning
+                  setting, in which instances are represented in the
+                  form of a composition of a (variable) number on
+                  constituents. Such compositions are associated with
+                  an evaluation, which is the target of the prediction
+                  task, and which can presumably be modeled in the
+                  form of a suitable aggregation of the properties of
+                  its constituents. An especially interesting class of
+                  LTA problems arises when the evaluations of the
+                  constituents are not available at training time, and
+                  instead ought to be learned simultaneously with the
+                  aggregation function. This scenario is referred to
+                  as the ``aggregation/disaggregation problem''. In
+                  this paper, we tackle this problem for an
+                  interesting type of aggregation function, namely the
+                  Ordered Weighted Averaging (OWA) operator. In
+                  particular, we provide an algorithm for learning the
+                  OWA parameters together with local utility scores of
+                  the constituents, and evaluate this algorithm in a
+                  case study on predicting the performance of
+                  classifier ensembles.}
+}
+
+@InProceedings{gomtsyan19,
+  title =	 {Geometry-Aware Maximum Likelihood Estimation of
+                  Intrinsic Dimension},
+  author =	 {Gomtsyan, Marina and Mokrov, Nikita and Panov, Maxim
+                  and Yanovich, Yury},
+  pages =	 {1126-1141},
+  crossref =	 {acml19},
+  abstract =	 {The existing approaches to intrinsic dimension
+                  estimation usually are not reliable when the data
+                  are nonlinearly embedded in the high dimensional
+                  space. In this work, we show that the explicit
+                  accounting to geometric properties of unknown
+                  support leads to the polynomial correction to the
+                  standard maximum likelihood estimate of intrinsic
+                  dimension for flat manifolds. The proposed algorithm
+                  (GeoMLE) realizes the correction by regression of
+                  standard MLEs based on distances to nearest
+                  neighbors for different sizes of
+                  neighborhoods. Moreover, the proposed approach also
+                  efficiently handles the case of nonuniform sampling
+                  of the manifold. We perform a series of experiments
+                  on various synthetic and real-world datasets. The
+                  results show that our algorithm achieves
+                  state-of-the-art performance, while also being
+                  robust to noise in the data and competitive
+                  computationally.}
+}
+
+@InProceedings{kim19b,
+  title =	 {Forward-Backward Generative Adversarial Networks for
+                  Anomaly Detection},
+  author =	 {Kim, Youngnam and Choi, Seungjin},
+  pages =	 {1142-1155},
+  crossref =	 {acml19},
+  abstract =	 {Generative adversarial network (GAN) has established
+                  itself as a promising model for density estimation,
+                  with its wide applications to various problems. Of
+                  particular interest in this paper is the problem of
+                  {\em anomaly detection} which involves identifying
+                  events that do not conform to expected patterns in
+                  data. Recent application of GANs to the task of
+                  anomaly detection, resort to their ability for
+                  learning probability distributions of normal
+                  examples, so that abnormal examples or outliers are
+                  detected when they reside in very low-probability
+                  regimes. Existing GAN methods often suffer from the
+                  bad {\em cycle-consistency} problem, which yields
+                  the large reconstruction error so that the anomaly
+                  detection performance is degraded. In order to
+                  alleviate this, we present a model that consists of
+                  a forward GAN and backward GAN, each of which has an
+                  individual discriminator, that are coupled by
+                  enforcing feature matching in two discriminators. We
+                  show that our forward-backward GANs (FBGANs) better
+                  captures the data distribution so that the anomaly
+                  detection performance is improved over existing
+                  GAN-based methods. Experiments on MNIST an KDD99
+                  datasets demonstrate that our method, FBGANs,
+                  outperforms existing state-of-the-art anomaly
+                  detection methods, in terms of the area under
+                  precision recall curve (AUPR) and $F_{1}$-score.}
+}
+
+@InProceedings{zhao19,
+  title =	 {Improving Relation Classification by Entity Pair
+                  Graph},
+  author =	 {Zhao, Yi and Wan, Huaiyu and Gao, Jianwei and Lin,
+                  Youfang},
+  pages =	 {1156-1171},
+  crossref =	 {acml19},
+  abstract =	 {Relation classification is one of the most important
+                  tasks in the field of information extraction, and
+                  also a key component of systems that require
+                  relational understanding of unstructured
+                  text. Existing relation classification approaches
+                  mainly rely on exploiting external resources and
+                  background knowledge to improve the performance and
+                  ignore the correlations between entity pairs which
+                  are helpful for relation classification. We present
+                  the concept of entity pair graph to represent the
+                  correlations between entity pairs and propose a
+                  novel entity pair graph based neural network (EPGNN)
+                  model, relying on graph convolutional network to
+                  capture the topological features of an entity pair
+                  graph. EPGNN combines sentence semantic features
+                  generated by pre-trained BERT model with graph
+                  topological features for relation
+                  classification. Our proposed model makes full use of
+                  a given corpus and forgoes the need of external
+                  resources and background knowledge. The experimental
+                  results on two widely used dataset: SemEval 2010
+                  Task 8 and ACE 2005, show that our method
+                  outperforms the state-of-the-art approaches.}
+}
+
+@InProceedings{choi19,
+  title =	 {Cell-aware Stacked LSTMs for Modeling Sentences},
+  author =	 {Choi, Jihun and Kim, Taeuk and Lee, Sang-goo},
+  pages =	 {1172-1187},
+  crossref =	 {acml19},
+  abstract =	 {We propose a method of stacking multiple long
+                  short-term memory (LSTM) layers for modeling
+                  sentences. In contrast to the conventional stacked
+                  LSTMs where only hidden states are fed as input to
+                  the next layer, the suggested architecture accepts
+                  both hidden and memory cell states of the preceding
+                  layer and fuses information from the left and the
+                  lower context using the soft gating mechanism of
+                  LSTMs. Thus the architecture modulates the amount of
+                  information to be delivered not only in horizontal
+                  recurrence but also in vertical connections, from
+                  which useful features extracted from lower layers
+                  are effectively conveyed to upper layers. We dub
+                  this architecture Cell-aware Stacked LSTM (CAS-LSTM)
+                  and show from experiments that our models bring
+                  significant performance gain over the standard LSTMs
+                  on benchmark datasets for natural language
+                  inference, paraphrase detection, sentiment
+                  classification, and machine translation. We also
+                  conduct extensive qualitative analysis to understand
+                  the internal behavior of the suggested approach.}
+}
+
+@InProceedings{phantuan19,
+  title =	 {From Implicit to Explicit Feedback: A deep neural
+                  network for modeling the sequential behavior of
+                  online users},
+  author =	 {Phan Tuan, Anh and Nguyen Trong, Nhat and Bui Trong,
+                  Duong and Ngo Van, Linh and Than, Khoat},
+  pages =	 {1188-1203},
+  crossref =	 {acml19},
+  abstract =	 {We demonstrate the advantages of taking into account
+                  multiple types of behavior in recommendation
+                  systems. Intuitively, each user has to do some
+                  \textbf{implicit} actions (e.g., click) before
+                  making an \textbf{explicit} decision (e.g.,
+                  purchase). Previous works showed that implicit and
+                  explicit feedback has distinct properties to make a
+                  useful recommendation. However, these works exploit
+                  implicit and explicit behavior separately and
+                  therefore ignore the semantic of interaction between
+                  users and items. In this paper, we propose a novel
+                  model namely \textit{Implicit to Explicit (ITE)}
+                  which directly models the order of user
+                  actions. Furthermore, we present an extended version
+                  of ITE, namely \textit{Implicit to Explicit with
+                  Side information (ITE-Si)}, which incorporates side
+                  information to enrich the representations of users
+                  and items. The experimental results show that both
+                  ITE and ITE-Si outperform existing recommendation
+                  systems and also demonstrate the effectiveness of
+                  side information in two large scale datasets.}
+}
+
+@InProceedings{wu19,
+  title =	 {G-UAP: Generic Universal Adversarial Perturbation
+                  that Fools RPN-based Detectors},
+  author =	 {Wu, Xing and Huang, Lifeng and Gao, Chengying},
+  pages =	 {1204-1217},
+  crossref =	 {acml19},
+  abstract =	 {Adversarial perturbation constructions have been
+                  demonstrated for object detection, but these are
+                  image-specific perturbations. Recent works have
+                  shown the existence of image-agnostic perturbations
+                  called universal adversarial perturbation (UAP) that
+                  can fool the classifiers over a set of natural
+                  images. In this paper, we extend this kind
+                  perturbation to attack deep proposal-based object
+                  detectors. We present a novel and effective approach
+                  called G-UAP to craft universal adversarial
+                  perturbations, which can explicitly degrade the
+                  detection accuracy of a detector on a wide range of
+                  image samples. Our method directly misleads the
+                  Region Proposal Network (RPN) of the detectors into
+                  mistaking foreground (objects) for background
+                  without specifying an adversarial label for each
+                  target (RPN's proposal), and even without
+                  considering that how many objects and object-like
+                  targets are in the image. The experimental results
+                  over three state-of-the-art detectors and two
+                  datasets demonstrate the effectiveness of the
+                  proposed method and transferability of the universal
+                  perturbations.}
+}
+

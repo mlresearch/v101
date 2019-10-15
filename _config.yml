@@ -1,0 +1,68 @@
+---
+booktitle: Proceedings of The Eleventh Asian Conference on Machine Learning
+shortname: ACML
+year: '2019'
+volume: 101
+start: 2019-11-17
+end: 2019-11-19
+published: 2019-10-15
+sections:
+- name: Preface
+  title: Preface
+- name: Accepted Papers
+  title: Accepted Papers
+url: http://proceedings.mlr.press
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: acml19
+month: 0
+cycles: false
+bibtex_editor: Lee, Wee Sun and Suzuki, Taiji
+editor:
+- given: Wee Sun
+  family: Lee
+- given: Taiji
+  family: Suzuki
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The Eleventh Asian Conference on Machine Learning
+    Held in Nagoya, Japan on 17-19 November 2019
+
+  Published as Volume 101 by the Proceedings of Machine Learning Research on 15 October 2019.
+
+  Volume Edited by:
+    Wee Sun Lee
+    Taiji Suzuki
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 17--19 Nov
+baseurl: "/v101"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v101
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: Asian Conference on Machine Learning
+  url: 
+  location: Nagoya, Japan
+  dates:
+  - 2019-11-17
+  - 2019-11-18
+  - 2019-11-19
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/neil/mlresearch/v101/acml19.bib

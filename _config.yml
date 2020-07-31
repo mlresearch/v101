@@ -14,6 +14,7 @@ sections:
 url: http://proceedings.mlr.press
 layout: proceedings
 series: Proceedings of Machine Learning Research
+issn: 2640-3498
 id: acml19
 month: 0
 cycles: false
@@ -42,8 +43,11 @@ baseurl: "/v101"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+plugins:
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
 permalink: "/:title.html"
-github:
+ghub:
   edit: true
   repository: v101
 display:
@@ -64,5 +68,6 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
+orig_bibfile: "./acml19.bib"
 # Site settings
-# Auto generated from /Users/neil/mlresearch/v101/acml19.bib
+# Original source:  ./acml19.bib

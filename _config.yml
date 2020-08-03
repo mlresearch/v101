@@ -45,9 +45,9 @@ baseurl: "/v101"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
-style: pmlr
 plugins:
 - jekyll-remote-theme
+style: pmlr
 remote_theme: lawrennd/proceedings
 permalink: "/:title.html"
 ghub:

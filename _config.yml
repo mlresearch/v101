@@ -1,5 +1,6 @@
 ---
 booktitle: Proceedings of The Eleventh Asian Conference on Machine Learning
+orig_bibfile: "./acml19.bib"
 shortname: ACML
 year: '2019'
 volume: 101
@@ -46,6 +47,10 @@ baseurl: "/v101"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
@@ -74,6 +79,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "./acml19.bib"
 # Site settings
 # Original source:  ./acml19.bib

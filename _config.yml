@@ -12,7 +12,7 @@ sections:
   title: Preface
 - name: Accepted Papers
   title: Accepted Papers
-url: http://proceedings.mlr.press
+url: https://proceedings.mlr.press
 author:
   name: PMLR
 layout: proceedings
